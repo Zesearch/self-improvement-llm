@@ -27,13 +27,13 @@ Zesearch NLP Lab, Stony Brook University
 
 <br>
 
-🚀 Upcoming Update
+🚀 *Upcoming Update*
 
 We will continue improving and expanding this paper.
 If you have any suggestions, ideas, missing papers, or feedback, they are highly welcome!
 A new updated version of the paper will be released soon.
 
-🤝 Collaboration Welcome
+🤝 *Collaboration Welcome*
 
 We also welcome collaborations interested in this area. Feel free to open an issue or reach out if you would like to contribute.
 
