@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://arxiv.org/abs/2603.25681"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Website-ComingSoon-blue?style=for-the-badge"></a>
+  <a href="https://zesearch.github.io/self-improvement-llm-website/"><img src="https://img.shields.io/badge/Website-Live-blue?style=for-the-badge"></a>
   <a href="#"><img src="https://img.shields.io/badge/Slides-ComingSoon-yellow?style=for-the-badge"></a>
 </p>
 
