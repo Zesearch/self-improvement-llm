@@ -492,9 +492,9 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2023, Dec) [EMNLP 2023 Findings] Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation](https://aclanthology.org/2023.findings-emnlp.257.pdf)
 - [(2024, May) [ICML 2024] Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://openreview.net/pdf?id=PEpbUobfJv)
 - [(2024, May) [ICML 2024] Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://openreview.net/pdf?id=eDjvSFOkXw)
+- [(2024, Jul) [ICML 2024] EAGLE: speculative sampling requires rethinking feature uncertainty ] (https://arxiv.org/pdf/2401.15077)
 - [(2024, Aug) [ACL 2024 Findings] Speculative Decoding via Early-exiting for Faster LLM Inference with Thompson Sampling Control Mechanism](https://aclanthology.org/2024.findings-acl.179.pdf)
 - [(2025, Jul) [AAAI 2026 Workshop: WoMAPF] Parallelism Meets Adaptiveness: Scalable Documents Understanding in Multi-Agent LLM Systems](https://openreview.net/pdf?id=363T05eYLh)
-- [(2024, Jul) [ICML 2024] EAGLE: speculative sampling requires rethinking feature uncertainty ] (https://arxiv.org/pdf/2401.15077)
 
 
 ### Reasoning-Based Improvement (§5.3)
