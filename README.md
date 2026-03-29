@@ -161,7 +161,9 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2023, Oct) [ICLR 2024] OpenWebMath: An Open Dataset of High-Quality Mathematical Web Text](https://arxiv.org/pdf/2310.06786)
 - [(2024, Feb) StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/pdf/2402.19173)
 
+### Automatic Data Preparation
 
+- [(2026, Jan) Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs](https://arxiv.org/abs/2601.17058)
 
 
 ### Environmental Interaction (§2.3)
@@ -699,6 +701,7 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2025, Jul) [ACL Findings 2025] DynaQuest: A Dynamic Question Answering Dataset Reflecting Real-World Knowledge Updates](https://aclanthology.org/2025.findings-acl.1380.pdf)
 - [(2025, Aug) DeepScholar-Bench: A Live Benchmark and Automated Evaluation for Generative Research Synthesis](https://arxiv.org/pdf/2508.20033)
 - [(2025, Oct) [TMLR] AcademicEval: Live Long-Context LLM Benchmark](https://openreview.net/pdf?id=LjQ4voE5bs)
+- [(2025, Oct) OKBench: Democratizing LLM Evaluation with Fully Automated, On-Demand, Open Knowledge Benchmarking](https://arxiv.org/abs/2511.08598)
 
 
 ### Interactive Environment Evaluation (§6.3)
