@@ -161,7 +161,7 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2023, Oct) [ICLR 2024] OpenWebMath: An Open Dataset of High-Quality Mathematical Web Text](https://arxiv.org/pdf/2310.06786)
 - [(2024, Feb) StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/pdf/2402.19173)
 
-### Automatic Data Preparation
+#### Automatic Data Preparation
 
 - [(2026, Jan) Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs](https://arxiv.org/abs/2601.17058)
 
