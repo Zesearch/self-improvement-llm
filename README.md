@@ -166,7 +166,7 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2026, Jan) Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs](https://arxiv.org/abs/2601.17058)
 
 
-### Environmental Interaction (§2.3)
+### Environment Interaction (§2.3)
 
 > **§2.3 Environment Interaction** enables the model to acquire data by actively interacting with external environments — browsing website, calling APIs, executing code, or operating within simulators — and learning from the resulting feedback through trial and error.
 
