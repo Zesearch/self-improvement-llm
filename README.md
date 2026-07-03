@@ -952,6 +952,7 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2025, Apr) The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search](https://arxiv.org/pdf/2504.08066?)
 - [(2025, Feb) Towards an AI co-scientist](https://arxiv.org/pdf/2502.18864)
 - [(2026, Feb) S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research](https://arxiv.org/pdf/2602.01550)
+- [(2026, Jun) Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/pdf/2606.24177)
 
 ### Others
 - [(2024, Aug) [ICLR 2025] Automated Design of Agentic Systems](https://arxiv.org/pdf/2408.08435)
