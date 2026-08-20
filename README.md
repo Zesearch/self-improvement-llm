@@ -761,7 +761,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 > **§6.2 Dynamic Benchmarking** continuously regenerates or transforms evaluation instances to mitigate data contamination and distributional staleness, ensuring that benchmarks remain informative as models improve through iterative self-training.
 
 - [(2023, Jun) KoLA: Carefully Benchmarking World Knowledge of Large Language Models](https://arxiv.org/pdf/2306.09296)
-- [(2023, Dec) [NeurIPS 2023] RealTime QA: What's the Answer Right Now?](https://papers.nips.cc/paper_files/paper/2023/file/9941624ef7f867a502732b5154d30cb7-Paper-Datasets_and_Benchmarks_Track.pdf)
+- [(2023, Dec) [NeurIPS 2023] RealTime QA: What's the Answer Right Now?](https://papers.nips.cc/paper_files/paper/2023/file/9941624ef7f867a502732b5154d30cb7-Paper-Datasets_and_Benchmarks.pdf)
 - [(2025, Apr) [ICLR 2025] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://openreview.net/pdf?id=chfJJYC3iL)
 - [(2025, Apr) [ICLR 2025] LiveBench: A Challenging, Contamination-Limited LLM Benchmark](https://openreview.net/pdf?id=sKYHBTAxVa)
 - [(2025, Apr) TDBench: A Benchmark for Top-Down Image Understanding with Reliability Analysis of Vision-Language Models](https://arxiv.org/pdf/2504.03748)
@@ -900,7 +900,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2024, Jan) [ICLR 2024] Large Language Models Cannot Self-Correct Reasoning Yet](https://openreview.net/pdf?id=IkmD3fKBPQ)
 - [(2024, Aug) [ACL 2024] Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement](https://aclanthology.org/2024.acl-long.826.pdf) 
 - [(2025, Jul) Self-Correction Bench: Uncovering and Addressing the Self-Correction Blind Spot in Large Language Models](https://arxiv.org/pdf/2507.02778)
-- [(2025, Nov) [EMNLP Findings 2025] Unraveling Misinformation Propagation in LLM Reasoning](https://aclanthology.org/2025.findings-emnlp.627.pdf/)
+- [(2025, Nov) [EMNLP Findings 2025] Unraveling Misinformation Propagation in LLM Reasoning](https://aclanthology.org/2025.findings-emnlp.627.pdf)
 
 
 ### Evaluation Bottlenecks (§7.5)
@@ -914,11 +914,11 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2024, Jan) [ICLR 2024] Proving Test Set Contamination in Black-Box Language Models](https://openreview.net/pdf?id=KS8mIvetg2)
 - [(2024, Jan) [ICLR 2024] Time Travel in LLMs: Tracing Data Contamination in Large Language Models](https://openreview.net/pdf?id=2Rwq6c3tvr)
 - [(2024, Jun) DICE: Detecting In-distribution Contamination in LLM's Fine-tuning Phase for Math Reasoning](https://arxiv.org/pdf/2406.04197)
-- [(2025, Jan) [COLING 2025] Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation](https://aclanthology.org/2025.coling-main.223.pdf/)
+- [(2025, Jan) [COLING 2025] Benchmark Self-Evolving: A Multi-Agent Framework for Dynamic LLM Evaluation](https://aclanthology.org/2025.coling-main.223.pdf)
 - [(2025, Jan) [ICLR 2025] LiveBench: A Challenging, Contamination-Limited LLM Benchmark](https://openreview.net/pdf?id=sKYHBTAxVa)
 - [(2025, Jan) [ICLR 2025] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://openreview.net/pdf?id=chfJJYC3iL)
-- [(2025, Jul) [ACL 2025] AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge](https://aclanthology.org/2025.acl-long.901.pdf/)
-- [(2025, Nov) [EMNLP 2025] Benchmarking Large Language Models Under Data Contamination: A Survey from Static to Dynamic Evaluation](https://aclanthology.org/2025.emnlp-main.511.pdf/)
+- [(2025, Jul) [ACL 2025] AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge](https://aclanthology.org/2025.acl-long.901.pdf)
+- [(2025, Nov) [EMNLP 2025] Benchmarking Large Language Models Under Data Contamination: A Survey from Static to Dynamic Evaluation](https://aclanthology.org/2025.emnlp-main.511.pdf)
 - [(2026, Jan) [ICLR 2026] On The Fragility of Benchmark Contamination Detection in Reasoning Models](https://openreview.net/pdf?id=bhR00j6Mku)
 
 #### Metric Design Deficiencies
@@ -949,14 +949,14 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, Apr) [AI and Ethics] Human control of AI systems: from supervision to teaming](https://link.springer.com/content/pdf/10.1007/s43681-024-00489-4.pdf) 
 - [(2025, Jul) [COLM 2025] Prompt-Reverse Inconsistency: LLM Self-Inconsistency Beyond Generative Randomness and Prompt Paraphrasing](https://openreview.net/pdf?id=yfRkNRFLzl)
 - [(2025, Oct) Taming the Judge: Deconflicting AI Feedback for Stable Reinforcement Learning](https://arxiv.org/pdf/2510.15514)
-- [(2025, Nov) [EMNLP 2025] From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge](https://aclanthology.org/2025.emnlp-main.138.pdf/)
-- [(2025, Nov) [EMNLP Findings 2025] Rating Roulette: Self-Inconsistency in LLM-As-A-Judge Frameworks](https://aclanthology.org/2025.findings-emnlp.1361.pdf/) 
+- [(2025, Nov) [EMNLP 2025] From Generation to Judgment: Opportunities and Challenges of LLM-as-a-judge](https://aclanthology.org/2025.emnlp-main.138.pdf)
+- [(2025, Nov) [EMNLP Findings 2025] Rating Roulette: Self-Inconsistency in LLM-As-A-Judge Frameworks](https://aclanthology.org/2025.findings-emnlp.1361.pdf) 
 
 #### Supervision Ineffectiveness
 
 - [(2020, Jul) On Controllability of AI](https://arxiv.org/pdf/2008.04071)
 - [(2024, May) [ICML 2024] Fundamental Limitations of Alignment in Large Language Models](https://raw.githubusercontent.com/mlresearch/v235/main/assets/wolf24a/wolf24a.pdf) 
-- [(2024, Jun) [NAACL 2024] Fake Alignment: Are LLMs Really Aligned Well?](https://aclanthology.org/2024.naacl-long.263.pdf/)
+- [(2024, Jun) [NAACL 2024] Fake Alignment: Are LLMs Really Aligned Well?](https://aclanthology.org/2024.naacl-long.263.pdf)
 - [(2024, Dec) Alignment faking in large language models](https://arxiv.org/pdf/2412.14093)
 - [(2025, Sep) [NeurIPS 2025] Why Do Some Language Models Fake Alignment While Others Don't?](https://openreview.net/pdf?id=1Imp4KZyjA)
 
