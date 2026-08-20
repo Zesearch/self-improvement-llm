@@ -18,8 +18,6 @@ Zesearch NLP Lab, Stony Brook University
 
 </div>
 
-<br>
-
 # News
 
 - **[2026.08]** 🚀 We released a [**new version**](https://arxiv.org/abs/2603.25681v2) of our paper, with a restructured **Model Optimization (§4)**, a new section on **Potential Risks (§8)**, and an expanded **Applications (§9)**.
