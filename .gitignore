@@ -11,6 +11,3 @@
 .vscode/
 .idea/
 *.swp
-
-# Claude Code local state
-.claude/settings.local.json
