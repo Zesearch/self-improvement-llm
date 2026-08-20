@@ -1,0 +1,16 @@
+# Paper drafts / local PDFs
+*.pdf
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors / tooling
+.vscode/
+.idea/
+*.swp
+
+# Claude Code local state
+.claude/settings.local.json

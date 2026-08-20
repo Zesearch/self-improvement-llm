@@ -5,46 +5,52 @@
 ### 
 
 <p align="center">
-  <a href="https://arxiv.org/abs/2603.25681"><img src="https://img.shields.io/badge/Paper-arXiv-b31b1b?style=for-the-badge"></a>
+  <a href="https://arxiv.org/abs/2603.25681v2"><img src="https://img.shields.io/badge/Paper-TMLR-b31b1b?style=for-the-badge"></a>
   <a href="https://zesearch.github.io/self-improvement-llm-website/"><img src="https://img.shields.io/badge/Website-Live-blue?style=for-the-badge"></a>
   <a href="#"><img src="https://img.shields.io/badge/Slides-ComingSoon-yellow?style=for-the-badge"></a>
 </p>
 
-### Haoyan Yang · Mario Xerri  · Solha Park · Huajian Zhang · Yiyang Feng · Sai Akhil Kogilathota  · Jiawei Zhou
+### <a href="mailto:haoyan.yang@stonybrook.edu">Haoyan Yang</a> · <a href="mailto:mario.xerri@stonybrook.edu">Mario Xerri</a> · <a href="mailto:solha.park@stonybrook.edu">Solha Park</a> · <a href="mailto:huajian.zhang@stonybrook.edu">Huajian Zhang</a>
+
+### <a href="mailto:yiyang.feng@stonybrook.edu">Yiyang Feng</a> · <a href="mailto:saiakhilkogilathota@gmail.com">Sai Akhil Kogilathota</a> · <a href="mailto:jiawei.zhou.1@stonybrook.edu">Jiawei Zhou</a>
 
 Zesearch NLP Lab, Stony Brook University
-
-<br>
-<a href="mailto:saiakhil.kogilathota@stonybrook.edu">haoyan.yang@stonybrook.edu</a> |
-<a href="mailto:saiakhil.kogilathota@stonybrook.edu">mario.xerri@stonybrook.edu</a> |
-<a href="mailto:saiakhil.kogilathota@stonybrook.edu">solha.park@stonybrook.edu</a> |
-<a href="mailto:saiakhil.kogilathota@stonybrook.edu">huajian.zhang@stonybrook.edu</a> |
-<a href="mailto:sripadhavallab.eg@stonybrook.edu">yiyang.feng@stonybrook.edu</a> |
-<a href="mailto:saiakhil.kogilathota@stonybrook.edu">saiakhil.kogilathota@stonybrook.edu</a> |
-<a href="mailto:jiawei.zhou.1@stonybrook.edu">jiawei.zhou.1@stonybrook.edu</a>
 
 </div>
 
 <br>
 
-🚀 *Upcoming Update*
+# News
 
-We will continue improving and expanding this paper.
-If you have any suggestions, ideas, missing papers, or feedback, they are highly welcome!
-A new updated version of the paper will be released soon.
+- **[2026.08]** 🚀 We released a [**new version**](https://arxiv.org/abs/2603.25681v2) of our paper, with a restructured **Model Optimization (§4)**, a new section on **Potential Risks (§8)**, and an expanded **Applications (§9)**.
+- **[2026.08]** 🎉 Our paper was accepted to [**TMLR**](https://jmlr.org/tmlr/) and awarded a [**Survey Certification**](https://jmlr.org/tmlr/papers/)!
+- **[2026.08]** 🎉 Our paper was covered by [**SBU News**](https://news.stonybrook.edu/academics/college-of-engineering-and-applied-sciences/stony-brook-researchers-create-a-blueprint-for-self-improving-language-models/).
+- **[2026.06]** 🎉 Our paper was covered by [**机器之心 (Synced)**](https://mp.weixin.qq.com/s/N_qd_beuSQ4zMcJAActTaQ).
+
+📚 *Continuous Update*
+
+We will continuously update the latest literature on self-improvement of LLMs in this repository.
 
 🤝 *Collaboration Welcome*
 
-We also welcome collaborations interested in this area. Feel free to open an issue or reach out if you would like to contribute.
+If you are also interested in self-improvement of LLMs or self-evolving agents, feel free to reach out!
 
 
+# Our Vision
+
+<p align="center">
+  <img src="figures/intro.jpg" width="900"/>
+</p>
+
+We envision a paradigm in which **humans only bootstrap the system**, after which the model autonomously acquires its own data, reflects on its own outputs, and iteratively refines its own capabilities.
+In the long run, model development becomes a self-sustaining loop rather than a human-driven pipeline, potentially enabling systems to evolve beyond human-level intelligence.
 
 
-# 🌟 Overview
+# Overview
 As large language models (LLMs) continue to advance, improving them solely through human supervision is becoming increasingly costly and limited in scalability. As models approach human-level capabilities in certain domains, human feedback may no longer provide sufficiently informative signals for further improvement. At the same time, the growing ability of models to make autonomous decisions and execute complex actions naturally enables abstractions in which components of the model development process can be progressively automated. Together, these challenges and opportunities have driven increasing interest in self-improvement, where models autonomously generate data, evaluate outputs, and iteratively refine their own capabilities.
 
 <p align="center">
-  <img src="figures/main.png" width="900"/>
+  <img src="figures/main.jpg" width="900"/>
 </p>
 
 
@@ -56,9 +62,10 @@ We present a **system-level framework for self-improving language models**, cove
 - **Inference Refinement**
 - **Autonomous Evaluation**
 
-Beyond the technical taxonomy, we further analyze the field from three complementary perspectives:
+Beyond the technical taxonomy, we further analyze the field from four complementary perspectives:
 
 - **Challenges and Limitations**
+- **Potential Risks**
 - **Applications**
 - **Future Outlook**
 
@@ -66,7 +73,7 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 
 
 
-# 📖 Paper List
+# Paper List
 
 📌 **Note:** Each section and subsection heading in this paper list is annotated with its corresponding section number in the paper (e.g., `§2.2`, `§4.3`), along with a brief description of its scope.
 
@@ -77,7 +84,7 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 
 - [Data Acquisition (§2)](#data-acquisition-2)
   - [Static Curation (§2.2)](#static-curation-22)
-  - [Environmental Interaction (§2.3)](#environmental-interaction-23)
+  - [Environment Interaction (§2.3)](#environment-interaction-23)
   - [Synthetic Generation (§2.4)](#synthetic-generation-24)
     - [Prompt-Based (§2.4.1)](#prompt-based-241)
     - [Transformation-Based (§2.4.2)](#transformation-based-242)
@@ -90,25 +97,28 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
   - [Adaptive Selection (§3.3)](#adaptive-selection-33)
 
 - [Model Optimization (§4)](#model-optimization-4)
-  - [Generation-Reward-Optimization (GRO) Framework (§4.2)](#gro-framework-42)
-  - [Theoretical Analysis (§4.4)](#theoretical-analysis-44)
-  - [Beyond GRO (§4.5)](#beyond-gro-45)
+  - [Direct Optimization (§4.2)](#direct-optimization-42)
+  - [Self-Generated Optimization (§4.3)](#self-generated-optimization-43)
+    - [Generation, Reward, and Optimization (§4.3.1 to §4.3.3)](#generation-reward-and-optimization-431-to-433)
+    - [Representative Instances of SGO (§4.3.4)](#representative-instances-of-sgo-434)
+  - [Self-Evolving Optimization (§4.4)](#self-evolving-optimization-44)
+  - [Theoretical Analysis (§4.5.1)](#theoretical-analysis-451)
 
 - [Inference Refinement (§5)](#inference-refinement-5)
   - [Decoding Strategies (§5.2)](#decoding-strategies-52)
     - [Sampling-Based (§5.2.1)](#sampling-based-521)
     - [Tree Search (§5.2.2)](#tree-search-522)
     - [Logit and Probability Adjustments (§5.2.3)](#logit-and-probability-adjustments-523)
-    - [Efficiency Methods (§5.2.4)](#efficiency-methods-524)
+    - [Efficiency-Oriented Methods (§5.2.4)](#efficiency-oriented-methods-524)
   - [Reasoning-Based Improvement (§5.3)](#reasoning-based-improvement-53)
     - [Feedback-Based Reasoning (§5.3.1)](#feedback-based-reasoning-531)
     - [Planning-Based Reasoning (§5.3.2)](#planning-based-reasoning-532)
     - [Collaborative Reasoning (§5.3.3)](#collaborative-reasoning-533)
-  - [Agentic System-Based Improvement (§5.4)](#agentic-system-based-improvement-54)
-    - [Prompt (§5.4.1)](#prompt-541)
+  - [Agentic System Improvement (§5.4)](#agentic-system-improvement-54)
+    - [Prompts (§5.4.1)](#prompts-541)
     - [Memory (§5.4.2)](#memory-542)
     - [Tooling (§5.4.3)](#tooling-543)
-    - [Workflow (§5.4.4)](#workflow-544)
+    - [Workflow and System Evolution (§5.4.4)](#workflow-and-system-evolution-544)
   - [Test-Time Training (§5.5)](#test-time-training-55)
     - [TT-SFT (§5.5)](#tt-sft-55)
     - [TT-RL (§5.5)](#tt-rl-55)
@@ -124,14 +134,21 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
   - [Ineffective Self-Refinement (§7.4)](#ineffective-self-refinement-74)
   - [Evaluation Bottlenecks (§7.5)](#evaluation-bottlenecks-75)
   - [Supervision Bottlenecks (§7.6)](#supervision-bottlenecks-76)
+  - [Budget Constraints (§7.7)](#budget-constraints-77)
 
-- [Applications (§8)](#applications-8)
+- [Potential Risks (§8)](#potential-risks-8)
+  - [Loss of Control (§8.1)](#loss-of-control-81)
+  - [High-Stakes Harm (§8.2)](#high-stakes-harm-82)
+  - [Social and Ethical Risks (§8.3)](#social-and-ethical-risks-83)
+  - [Misuse Risks (§8.4)](#misuse-risks-84)
+
+- [Applications (§9)](#applications-9)
   - [Code](#code)
   - [Math](#math)
-  - [Medicine](#medicine)
+  - [Healthcare](#healthcare)
   - [Finance](#finance)
-  - [Algorithm](#algorithm)
   - [Science](#science)
+  - [Auto Research](#auto-research)
 
 
 </details>
@@ -316,77 +333,142 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 
 ## Model Optimization (§4)
 
-> **§4 Model Optimization** is the core training stage where the model autonomously converts acquired and selected data into enhanced capabilities within its parameters. It centers on the GRO (Generation-Reward-Optimization) framework, a unified loop of generating outputs, evaluating them with reward signals, and updating the policy.
+> **§4 Model Optimization** is the core training stage where the model autonomously converts acquired and selected data into enhanced capabilities within its parameters. The paper organizes it into three paradigms that form a progression of increasing autonomy: **Direct Optimization** (§4.2), a single offline update on a fixed corpus; **Self-Generated Optimization (SGO)** (§4.3), a closed loop of generation, reward, and optimization; and **Self-Evolving Optimization** (§4.4), where the optimization procedure itself becomes the object of improvement.
 
-### GRO Framework (§4.2)
+### Direct Optimization (§4.2)
 
-> **§4.2 GRO Framework** is the central paradigm for model self-improvement: the model generates candidate outputs (Generation), evaluates them using self-derived or external signals (Reward), and updates its policy accordingly (Optimization).
+> **§4.2 Direct Optimization** updates the model offline on a fixed dataset assembled by the upstream acquisition and selection stages. The corpus is frozen before optimization begins, no candidate is resampled from the updated model, and the training distribution stays stationary. The sophistication lies in how the data is produced rather than in how the parameters are updated.
 
-
-Within the GRO Framework (§4.2), many methods share common structural patterns in how they organize generation, reward, and optimization. The paper identifies three representative paradigms (§4.3) that capture these recurring ideas. We mark papers explicitly discussed as exemplars of each paradigm:
-
-| Marker | Paradigm | Description |
-|--------|----------|-------------|
-| 🔵 | **Iterative Rejection Sampling** | The model generates diverse candidates, filters them via ground truth or majority vote, and fine-tunes on the best outputs. Improvement comes from distilling the model's own best generations into its weights. |
-| 🟢 | **Self-Verification & Refinement** | The model actively evaluates, scores, or refines its own outputs using self-generated reward signals. Unlike rejection sampling, the model plays a semantic role as its own judge, and updates via RL or DPO. |
-| 🟠 | **Self-Play** | The model improves through dynamic interaction between multiple roles (adversarial proposer-solver or collaborative debate), providing an evolving curriculum of challenges that pushes beyond its initial distribution. |
-
-
-
+- [(2022, Dec) [ACL 2023] Self-Instruct: Aligning Language Models with Self-Generated Instructions](https://arxiv.org/pdf/2212.10560)
+- [(2023, Apr) [ICLR 2024] WizardLM: Empowering Large Pre-Trained Language Models to Follow Complex Instructions](https://arxiv.org/pdf/2304.12244)
+- [(2023, Aug) [ICLR 2024] Self-Alignment with Instruction Backtranslation](https://openreview.net/pdf?id=1oijHJBRsT)
+- [(2023, Oct) [ACL 2024 Findings] AgentTuning: Enabling Generalized Agent Abilities for LLMs](https://aclanthology.org/2024.findings-acl.181.pdf)
+- [(2023, Oct) FireAct: Toward Language Agent Fine-tuning](https://arxiv.org/pdf/2310.05915)
+- [(2024, Apr) [NAACL 2024 Findings] CodecLM: Aligning Language Models with Tailored Synthetic Data](https://arxiv.org/pdf/2404.05875)
+- [(2024, Jun) [ICLR 2025] Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://openreview.net/pdf?id=Pnk7vMbznK)
+- [(2025, Jan) Learn-by-Interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments](https://arxiv.org/pdf/2501.10893)
+- [(2025, May) [NeurIPS 2025] LongMagpie: A Self-Synthesis Method for Generating Large-Scale Long-Context Instructions](https://openreview.net/pdf?id=tuA2R6gZEA)
 
 
-- [(2022, Mar) [NeurIPS 2022] STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/pdf/2203.14465) 🔵
-- [(2023, May) [ICLR 2024] Language Model Self-improvement by Reinforcement Learning Contemplation](https://arxiv.org/pdf/2305.14483) 🔵
-- [(2023, Oct) SELF: Self-Evolution with Language Feedback](https://arxiv.org/pdf/2310.00533) 🟢
-- [(2023, Dec) [EMNLP 2023] Large Language Models Can Self-Improve](https://aclanthology.org/2023.emnlp-main.67.pdf) 🔵
-- [(2024, Jan) [ICML 2024] Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/pdf/2401.01335) 🟠
-- [(2024, May) [ICML 2024] Self-Rewarding Language Models](https://openreview.net/pdf?id=0NphYCmgua) 🟢
-- [(2024, May) [ICLR 2025] Self-Play Preference Optimization for Language Model Alignment](https://arxiv.org/pdf/2405.00675) 🟠
-- [(2024, Jun) [NAACL 2024] Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf)
-- [(2024, Jun) [NeurIPS 2024] ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search](https://arxiv.org/pdf/2406.03816)
-- [(2024, Jul) [NeurIPS 2024] Recursive Introspection: Teaching Language Model Agents How to Self-Improve](https://openreview.net/pdf?id=DRC9pZwBwR) 🟢
-- [(2024, Jul) [COLM 2024] V-STaR: Training Verifiers for Self-Taught Reasoners](https://arxiv.org/pdf/2402.06457)
-- [(2024, Jul) Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/pdf/2407.19594v2) 🟢
-- [(2024, Aug) [AAAI 2025] Importance Weighting Can Help Large Language Models Self-Improve](https://arxiv.org/pdf/2408.09849)
-- [(2024, Sep) [ICLR 2025] Training Language Models to Self-Correct via Reinforcement Learning](https://arxiv.org/pdf/2409.12917)
-- [(2024, Oct) [ICLR 2025] ReGenesis: LLMs can Grow into Reasoning Generalists via Self-Improvement](https://arxiv.org/pdf/2410.02108) 🔵
-- [(2024, Oct) [ICLR 2025] Self-Boosting Large Language Models with Synthetic Preference Data](https://arxiv.org/pdf/2410.06961)
-- [(2024, Nov) [ICML 2025] Self-Consistency Preference Optimization](https://arxiv.org/pdf/2411.04109)
-- [(2025, Jan) [ICLR 2025] Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains](https://arxiv.org/pdf/2501.05707) 🟠
-- [(2025, Feb) [NeurIPS 2025] SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning](https://arxiv.org/pdf/2502.04780) 🟠
-- [(2025, Feb) [ICLR 2026 Workshop: AI with Recursive Self-Improvement] Dynamic Noise Preference Optimization: Self-Improvement of Large Language Models with Self-Synthetic Data](https://arxiv.org/pdf/2502.05400)
-- [(2025, Feb) [COLM 2025] Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving](https://arxiv.org/pdf/2502.07640)
-- [(2025, Feb) [NeurIPS 2025 Workshop: DL4C] Learning to Solve and Verify: A Self-Play Framework for Code and Test Generation](https://arxiv.org/pdf/2502.14948)
-- [(2025, Feb) RSPO: Regularized Self-Play Alignment of Large Language Models](https://arxiv.org/pdf/2503.00030)
-- [(2025, Feb) Self-rewarding correction for mathematical reasoning](https://arxiv.org/pdf/2502.19613)
-- [(2025, Mar) Self-Taught Self-Correction for Small Language Models](https://arxiv.org/pdf/2503.08681)
-- [(2025, Mar) Self-Evolved Preference Optimization for Enhancing Mathematical Reasoning in Small Language Models](https://arxiv.org/pdf/2503.04813)
-- [(2025, Apr) [NAACL 2025] SimRAG: Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains](https://aclanthology.org/2025.naacl-long.575.pdf) 🔵
-- [(2025, May) Reflect, Retry, Reward: Self-Improving LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.24726)
-- [(2025, May) RLSR: Reinforcement Learning from Self Reward](https://arxiv.org/pdf/2505.08827)
-- [(2025, May) [EMNLP 2025] DEBATE, TRAIN, EVOLVE: Self Evolution of Language Model Reasoning](https://aclanthology.org/2025.emnlp-main.1666.pdf) 🟠
-- [(2025, May) [NeurIPS 2025] Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards](https://arxiv.org/pdf/2505.13445)
-- [(2025, May) [NeurIPS 2025] SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data](https://arxiv.org/pdf/2505.20347)
-- [(2025, May) [NeurIPS 2025] Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/pdf/2505.03335) 🟠
-- [(2025, May) [NeurIPS 2025] Latent Principle Discovery for Language Model Self-Improvement](https://arxiv.org/pdf/2505.16927)
-- [(2025, Jun) [NeurIPS 2025] Self-Challenging Language Model Agents](https://arxiv.org/pdf/2506.01716)
-- [(2025, Jun) PAG: Multi-Turn Reinforced LLM Self-Correction with Policy as Generative Verifier](https://arxiv.org/pdf/2506.10406)
-- [(2025, Jun) [NeurIPS 2025] Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](https://arxiv.org/pdf/2506.03136)
-- [(2025, Jun) [ICLR 2026] ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://arxiv.org/pdf/2506.11442)
-- [(2025, Jul) [ACL 2025 Findings] The Self-Improvement Paradox: Can Language Models Bootstrap Reasoning Capabilities without External Scaffolding?](https://aclanthology.org/2025.findings-acl.337.pdf)
-- [(2025, Jul) [ACL 2025 Findings] Unlocking LLMs' Self-Improvement Capacity with Autonomous Learning for Domain Adaptation](https://aclanthology.org/2025.findings-acl.1084.pdf)
-- [(2025, Aug) [ICLR 2026] R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/pdf/2508.05004) 🟠
-- [(2025, Sep) Semantic Voting: A Self-Evaluation-Free Approach for Efficient LLM Self-Improvement on Unverifiable Open-ended Tasks](https://arxiv.org/pdf/2509.23067)
-- [(2025, Oct) [ICLR 2026] RESTRAIN: From Spurious Votes to Signals -- Self-Driven RL with Self-Penalization](https://arxiv.org/pdf/2510.02172)
-- [(2025, Oct) SPICE: Self-Play In Corpus Environments Improves Reasoning](https://arxiv.org/pdf/2510.24684) 🟠
-- [(2025, Oct) Multi-Agent Evolve: LLM Self-Improve through Co-evolution](https://arxiv.org/pdf/2510.23595)
-- [(2025, Dec) Toward Training Superintelligent Software Agents through Self-Play SWE-RL](https://arxiv.org/pdf/2512.18552)
-- [(2026, Jan) Dr. Zero: Self-Evolving Search Agents without Training Data](https://arxiv.org/pdf/2601.07055) 🟠
+### Self-Generated Optimization (§4.3)
+
+> **§4.3 Self-Generated Optimization (SGO)** is the primary focus of this stage. Unlike direct optimization, the corpus is no longer fixed in advance: the model repeatedly **generates** the experience it trains on, receives a **reward** for it, and **optimizes** on the result, so the training distribution is policy-induced and non-stationary. SGO is therefore a specialized form of reinforcement learning in which the model learns from experience it produces itself.
+
+#### Generation, Reward, and Optimization (§4.3.1 to §4.3.3)
+
+> **§4.3.1 Generation** categorizes how candidates are produced: **Self-Exploratory (SE)** sampling directly from the current policy, **Refined (R)** generation that iteratively improves an initial response, and **Interactive (I)** generation driven by collaborative, adversarial, or tool-augmented dynamics.
+>
+> **§4.3.2 Reward** categorizes how those candidates are scored: **Heuristic (H)** signals from consistency or hand-designed rules, **Model-Based (M)** signals from self-evaluation or external judges and reward models, and **Verification (V)** signals from ground-truth matching, formal provers, or code execution.
+>
+> **§4.3.3 Optimization** follows directly from the reward format: SFT on filtered samples, DPO-style objectives on preference orderings, PPO/GRPO on scalar rewards, or specialized self-play objectives.
+
+The table below organizes SGO methods by their generation strategy, reward type, and optimization method (mirroring Table 6 of the paper). Abbreviations: **SE** = Self-Exploratory, **R** = Refined, **I** = Interactive; **H** = Heuristic, **M** = Model-Based, **V** = Verification. `&` indicates that multiple techniques are used within the same stage.
+
+| Method | Generation | Reward | Optimization |
+|--------|------------|--------|--------------|
+| [(2022, Mar) [NeurIPS 2022] STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/pdf/2203.14465) | SE | V | SFT |
+| [(2023, May) [ICLR 2024] SIRLC: Language Model Self-improvement by Reinforcement Learning Contemplation](https://arxiv.org/pdf/2305.14483) | SE | M | PPO |
+| [(2023, Oct) SELF: Self-Evolution with Language Feedback](https://arxiv.org/pdf/2310.00533) | R | M & V | SFT |
+| [(2023, Dec) [EMNLP 2023] LMSI: Large Language Models Can Self-Improve](https://aclanthology.org/2023.emnlp-main.67.pdf) | SE | H | SFT |
+| [(2024, Jan) [ICML 2024] SPIN: Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/pdf/2401.01335) | SE | H | SPIN |
+| [(2024, May) [ICML 2024] Self-Rewarding Language Models](https://openreview.net/pdf?id=0NphYCmgua) | SE | M | DPO |
+| [(2024, May) [ICLR 2025] SPPO: Self-Play Preference Optimization for Language Model Alignment](https://arxiv.org/pdf/2405.00675) | SE | M | SPPO |
+| [(2024, Jun) [NAACL 2024] TRIPOST: Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf) | R | M | SFT |
+| [(2024, Jun) [NeurIPS 2024] ReST-MCTS*: LLM Self-Training via Process Reward Guided Tree Search](https://arxiv.org/pdf/2406.03816) | SE | M | SFT |
+| [(2024, Jul) [NeurIPS 2024] RISE: Recursive Introspection: Teaching Language Model Agents How to Self-Improve](https://openreview.net/pdf?id=DRC9pZwBwR) | R | M & V | SFT |
+| [(2024, Jul) [COLM 2024] V-STaR: Training Verifiers for Self-Taught Reasoners](https://arxiv.org/pdf/2402.06457) | SE | V | SFT & DPO |
+| [(2024, Jul) Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/pdf/2407.19594v2) | SE | M | DPO |
+| [(2024, Aug) [AAAI 2025] IWSI: Importance Weighting Can Help Large Language Models Self-Improve](https://arxiv.org/pdf/2408.09849) | SE | H & M | SFT |
+| [(2024, Sep) [ICLR 2025] SCoRe: Training Language Models to Self-Correct via Reinforcement Learning](https://arxiv.org/pdf/2409.12917) | R | V | Multi-turn RL |
+| [(2024, Oct) [ICLR 2025] ReGenesis: LLMs can Grow into Reasoning Generalists via Self-Improvement](https://arxiv.org/pdf/2410.02108) | SE & R | H & V | SFT |
+| [(2024, Oct) [ICLR 2025] SynPO: Self-Boosting Large Language Models with Synthetic Preference Data](https://arxiv.org/pdf/2410.06961) | R | H | DPO |
+| [(2024, Nov) [ICML 2025] ScPO: Self-Consistency Preference Optimization](https://arxiv.org/pdf/2411.04109) | SE | H | ScPO |
+| [(2025, Jan) [ICLR 2025] Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains](https://arxiv.org/pdf/2501.05707) | I | H | SFT |
+| [(2025, Feb) [NeurIPS 2025] SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning](https://arxiv.org/pdf/2502.04780) | I | V | SFT |
+| [(2025, Feb) DNPO: Dynamic Noise Preference Optimization: Self-Improvement of Large Language Models with Self-Synthetic Data](https://arxiv.org/pdf/2502.05400) | SE | M | DNPO |
+| [(2025, Feb) [COLM 2025] Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving](https://arxiv.org/pdf/2502.07640) | SE | V | SFT & DPO |
+| [(2025, Feb) SOL-VER: Learning to Solve and Verify: A Self-Play Framework for Code and Test Generation](https://arxiv.org/pdf/2502.14948) | SE | M & V | SFT & DPO |
+| [(2025, Feb) RSPO: Regularized Self-Play Alignment of Large Language Models](https://arxiv.org/pdf/2503.00030) | SE | M | RSPO |
+| [(2025, Feb) Self-Rewarding Correction for Mathematical Reasoning](https://arxiv.org/pdf/2502.19613) | R | V | SFT & RL |
+| [(2025, Mar) STaSC: Self-Taught Self-Correction for Small Language Models](https://arxiv.org/pdf/2503.08681) | R | V | SFT |
+| [(2025, Mar) SPHERE: Self-Evolved Preference Optimization for Enhancing Mathematical Reasoning in Small Language Models](https://arxiv.org/pdf/2503.04813) | SE & R | M & V | DPO |
+| [(2025, Apr) [NAACL 2025] SimRAG: Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains](https://aclanthology.org/2025.naacl-long.575.pdf) | SE | H | SFT |
+| [(2025, May) Reflect, Retry, Reward: Self-Improving LLMs via Reinforcement Learning](https://arxiv.org/pdf/2505.24726) | R | V | GRPO |
+| [(2025, May) RLSR: Reinforcement Learning from Self Reward](https://arxiv.org/pdf/2505.08827) | SE | M | GRPO |
+| [(2025, May) [EMNLP 2025] DTE: Debate, Train, Evolve: Self Evolution of Language Model Reasoning](https://aclanthology.org/2025.emnlp-main.1666.pdf) | I | H | SFT & GRPO |
+| [(2025, May) [NeurIPS 2025] TBV: Trust, But Verify: A Self-Verification Approach to Reinforcement Learning with Verifiable Rewards](https://arxiv.org/pdf/2505.13445) | SE | V | PPO |
+| [(2025, May) [NeurIPS 2025] SeRL: Self-Play Reinforcement Learning for Large Language Models with Limited Data](https://arxiv.org/pdf/2505.20347) | SE | V | GRPO |
+| [(2025, May) [NeurIPS 2025] Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/pdf/2505.03335) | I | H & V | TRR++ |
+| [(2025, May) [NeurIPS 2025] STaPLe: Latent Principle Discovery for Language Model Self-Improvement](https://arxiv.org/pdf/2505.16927) | R | H | SFT |
+| [(2025, Jun) [NeurIPS 2025] Self-Challenging Language Model Agents](https://arxiv.org/pdf/2506.01716) | I | V | SFT |
+| [(2025, Jun) PAG: Multi-Turn Reinforced LLM Self-Correction with Policy as Generative Verifier](https://arxiv.org/pdf/2506.10406) | R | V | Multi-turn RL |
+| [(2025, Jun) [NeurIPS 2025] CURE: Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](https://arxiv.org/pdf/2506.03136) | I | H & V | PPO |
+| [(2025, Jul) [ACL 2025 Findings] CRESCENT: The Self-Improvement Paradox: Can Language Models Bootstrap Reasoning Capabilities without External Scaffolding?](https://aclanthology.org/2025.findings-acl.337.pdf) | SE | H | SFT |
+| [(2025, Jul) [ACL 2025 Findings] Unlocking LLMs' Self-Improvement Capacity with Autonomous Learning for Domain Adaptation](https://aclanthology.org/2025.findings-acl.1084.pdf) | R | H | DPO |
+| [(2025, Aug) [ICLR 2026] R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/pdf/2508.05004) | I | H & V | GRPO |
+| [(2025, Sep) Semantic Voting: A Self-Evaluation-Free Approach for Efficient LLM Self-Improvement on Unverifiable Open-ended Tasks](https://arxiv.org/pdf/2509.23067) | SE | H & M | SFT |
+| [(2025, Oct) [ICLR 2026] RESTRAIN: From Spurious Votes to Signals -- Self-Driven RL with Self-Penalization](https://arxiv.org/pdf/2510.02172) | SE | H | GRPO |
+| [(2025, Oct) SPICE: Self-Play In Corpus Environments Improves Reasoning](https://arxiv.org/pdf/2510.24684) | I | H & V | DrGRPO |
+| [(2025, Oct) MAE: Multi-Agent Evolve: LLM Self-Improve through Co-evolution](https://arxiv.org/pdf/2510.23595) | I | M | GRPO |
+| [(2025, Dec) SSR: Toward Training Superintelligent Software Agents through Self-Play SWE-RL](https://arxiv.org/pdf/2512.18552) | I | H & V | SWE-RL |
+| [(2026, Jan) [ICLR 2026] ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://arxiv.org/pdf/2506.11442) | I | H & V | TAPO |
+| [(2026, Jan) Dr. Zero: Self-Evolving Search Agents without Training Data](https://arxiv.org/pdf/2601.07055) | I | V | GRPO & HRPO |
 
 
-### Theoretical Analysis (§4.4)
+#### Representative Instances of SGO (§4.3.4)
 
-> **§4.4 Theoretical Analysis** provides formal theoretical foundations for understanding the GRO loop, including the "sharpening" mechanism, the generation-verification gap, convergence conditions, and the inherent limits of self-training under self-generated rewards.
+> **§4.3.4 Representative Instances of SGO** highlights the few recurring patterns through which most methods instantiate the loop, defining the structural relationship between generation, reward, and optimization.
+
+**Iterative Rejection Sampling.** The model generates diverse candidates, filters them via ground truth (oracle) or statistical consistency (majority vote), and fine-tunes on the retained pseudo-labels. Improvement comes from distilling the model's own best generations into its weights.
+
+- [(2022, Mar) [NeurIPS 2022] STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/pdf/2203.14465)
+- [(2023, Dec) [EMNLP 2023] LMSI: Large Language Models Can Self-Improve](https://aclanthology.org/2023.emnlp-main.67.pdf)
+- [(2024, Aug) [AAAI 2025] IWSI: Importance Weighting Can Help Large Language Models Self-Improve](https://arxiv.org/pdf/2408.09849)
+- [(2024, Oct) [ICLR 2025] ReGenesis: LLMs can Grow into Reasoning Generalists via Self-Improvement](https://arxiv.org/pdf/2410.02108)
+- [(2025, Apr) [NAACL 2025] SimRAG: Self-Improving Retrieval-Augmented Generation for Adapting Large Language Models to Specialized Domains](https://aclanthology.org/2025.naacl-long.575.pdf)
+- [(2025, Jul) [ACL 2025 Findings] CRESCENT: The Self-Improvement Paradox: Can Language Models Bootstrap Reasoning Capabilities without External Scaffolding?](https://aclanthology.org/2025.findings-acl.337.pdf)
+
+**Self-Verification & Refinement.** The model actively evaluates, scores, or refines its own outputs using self-generated reward signals. Unlike rejection sampling, the model plays a semantic role as its own judge, and updates via RL or DPO.
+
+- [(2023, May) [ICLR 2024] SIRLC: Language Model Self-improvement by Reinforcement Learning Contemplation](https://arxiv.org/pdf/2305.14483)
+- [(2023, Oct) SELF: Self-Evolution with Language Feedback](https://arxiv.org/pdf/2310.00533)
+- [(2024, May) [ICML 2024] Self-Rewarding Language Models](https://openreview.net/pdf?id=0NphYCmgua)
+- [(2024, May) [ICLR 2025] SPPO: Self-Play Preference Optimization for Language Model Alignment](https://arxiv.org/pdf/2405.00675)
+- [(2024, Jun) [NAACL 2024] TRIPOST: Teaching Language Models to Self-Improve through Interactive Demonstrations](https://aclanthology.org/2024.naacl-long.287.pdf)
+- [(2024, Jul) [NeurIPS 2024] RISE: Recursive Introspection: Teaching Language Model Agents How to Self-Improve](https://openreview.net/pdf?id=DRC9pZwBwR)
+- [(2024, Jul) Meta-Rewarding Language Models: Self-Improving Alignment with LLM-as-a-Meta-Judge](https://arxiv.org/pdf/2407.19594v2)
+- [(2024, Oct) [ICLR 2025] SynPO: Self-Boosting Large Language Models with Synthetic Preference Data](https://arxiv.org/pdf/2410.06961)
+
+**Self-Play.** The model improves through dynamic interaction between multiple roles (adversarial proposer-solver or collaborative debate), providing an evolving curriculum of challenges that pushes beyond its initial distribution.
+
+- [(2024, Jan) [ICML 2024] SPIN: Self-Play Fine-Tuning Converts Weak Language Models to Strong Language Models](https://arxiv.org/pdf/2401.01335)
+- [(2025, Jan) [ICLR 2025] Multiagent Finetuning: Self Improvement with Diverse Reasoning Chains](https://arxiv.org/pdf/2501.05707)
+- [(2025, Feb) [NeurIPS 2025] SiriuS: Self-improving Multi-agent Systems via Bootstrapped Reasoning](https://arxiv.org/pdf/2502.04780)
+- [(2025, May) [NeurIPS 2025] Absolute Zero: Reinforced Self-play Reasoning with Zero Data](https://arxiv.org/pdf/2505.03335)
+- [(2025, May) [EMNLP 2025] DTE: Debate, Train, Evolve: Self Evolution of Language Model Reasoning](https://aclanthology.org/2025.emnlp-main.1666.pdf)
+- [(2025, Aug) [ICLR 2026] R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/pdf/2508.05004)
+- [(2025, Oct) SPICE: Self-Play In Corpus Environments Improves Reasoning](https://arxiv.org/pdf/2510.24684)
+- [(2026, Jan) Dr. Zero: Self-Evolving Search Agents without Training Data](https://arxiv.org/pdf/2601.07055)
+
+
+### Self-Evolving Optimization (§4.4)
+
+> **§4.4 Self-Evolving Optimization** moves the target of improvement from the model's parameters to the optimization process itself: the update rule, the learning algorithm, or the surrounding agentic scaffolding is revised, so that *the way the model improves* can itself improve. This extends the unit of improvement from a single model's weights to the whole agentic system.
+
+- [(2024, Jun) [NeurIPS 2024] Discovering Preference Optimization Algorithms with and for Large Language Models](https://arxiv.org/pdf/2406.08414)
+- [(2025, May) [NeurIPS 2025] Iterative Self-Incentivization Empowers Large Language Models as Agentic Searchers](https://arxiv.org/pdf/2505.20128)
+- [(2025, May) [ICLR 2026] Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/pdf/2505.22954)
+- [(2025, Jul) [ACL 2025] Gödel Agent: A Self-Referential Agent Framework for Recursively Self-Improvement](https://aclanthology.org/2025.acl-long.1354.pdf)
+- [(2025, Oct) ASL: Towards Agentic Self-Learning LLMs in Search Environment](https://arxiv.org/pdf/2510.14253)
+- [(2025, Oct) EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/pdf/2510.16079)
+- [(2025, Nov) [ICLR 2026] Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine](https://openreview.net/pdf?id=T0EiEuhOOL)
+- [(2025, Nov) Agent-R1: A Unified and Modular Framework for Agentic Reinforcement Learning](https://arxiv.org/pdf/2511.14460)
+- [(2025, Dec) SAGE: Reinforcement Learning for Self-Improving Agent with Skill Library](https://arxiv.org/pdf/2512.17102)
+
+
+### Theoretical Analysis (§4.5.1)
+
+> **§4.5.1 Theoretical Analysis** probes the premise that a model can become better by training on data it generated itself, along three themes: where the loop's improvement originates (the "sharpening" mechanism and the generation-verification gap), whether it converges and to what ceiling, and when it collapses.
 
 - [(2024, Oct) [ICLR2025 Workshop: Reasoning and Planning for LLMs] RL-STaR: Theoretical Analysis of Reinforcement Learning Frameworks for Self-Taught Reasoner](https://arxiv.org/pdf/2410.23912)
 - [(2024, Dec) [ICLR 2025] Self-Improvement in Language Models: The Sharpening Mechanism](https://arxiv.org/pdf/2412.01951)
@@ -394,20 +476,8 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2025, May) Can Large Reasoning Models Self-Train?](https://arxiv.org/pdf/2505.21444)
 - [(2025, Jun) [ICLR 2026] Theoretical Modeling of Large Language Model Self-Improvement Training Dynamics Through Solver-Verifier Gap](https://arxiv.org/pdf/2507.00075)
 - [(2026, Feb) Self-Play Only Evolves When Self-Synthetic Pipeline Ensures Learnable Information Gain](https://arxiv.org/pdf/2603.02218)
-
-
-### Beyond GRO (§4.5)
-
-> **§4.5 Beyond GRO** explores model optimization pathways that go outside the standard GRO framework, including self-referential architectures that recursively modify their own logic, agentic self-learning without explicit reward signals, and open-ended evolutionary approaches.
-
-- [(2024, Jun) [NeurIPS 2024] Discovering Preference Optimization Algorithms with and for Large Language Models](https://arxiv.org/pdf/2406.08414)
-- [(2025, May) [NeurIPS 2025] Iterative Self-Incentivization Empowers Large Language Models as Agentic Searchers](https://arxiv.org/pdf/2505.20128)
-- [(2025, May) [ICLR 2026] Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/pdf/2505.22954)
-- [(2025, Jul) [ACL 2025] Gödel Agent: A Self-Referential Agent Framework for Recursively Self-Improvement](https://aclanthology.org/2025.acl-long.1354.pdf)
-- [(2025, Oct) Towards Agentic Self-Learning LLMs in Search Environment](https://arxiv.org/pdf/2510.14253)
-- [(2025, Oct) EvolveR: Self-Evolving LLM Agents through an Experience-Driven Lifecycle](https://arxiv.org/pdf/2510.16079)
-- [(2025, Nov) Agent-R1: Training Powerful LLM Agents with End-to-End Reinforcement Learning](https://arxiv.org/pdf/2511.14460)
-- [(2025, Dec) Reinforcement Learning for Self-Improving Agent with Skill Library](https://arxiv.org/pdf/2512.17102)
+- [(2026, Apr) Peer-Predictive Self-Training for Language Model Reasoning](https://arxiv.org/pdf/2604.13356)
+- [(2026, Jul) [ICML 2026] On the Generalization Gap in Self-Evolving Language Model Reasoning](https://openreview.net/pdf?id=mnUidYi5qO)
 
 
 
@@ -480,7 +550,7 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2025, Oct) [ICLR 2025] GenARM: Reward Guided Generation with Autoregressive Reward Model for Test-time Alignment](https://arxiv.org/pdf/2410.08193)
 
 
-#### Efficiency Methods (§5.2.4)
+#### Efficiency-Oriented Methods (§5.2.4)
 
 > **§5.2.4 Efficiency-Oriented Methods** accelerate inference through speculative decoding, parallel generation, and other techniques that reduce latency while maintaining output quality.
 
@@ -492,7 +562,7 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2023, Dec) [EMNLP 2023 Findings] Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation](https://aclanthology.org/2023.findings-emnlp.257.pdf)
 - [(2024, May) [ICML 2024] Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://openreview.net/pdf?id=PEpbUobfJv)
 - [(2024, May) [ICML 2024] Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://openreview.net/pdf?id=eDjvSFOkXw)
-- [(2024, Jul) [ICML 2024] EAGLE: speculative sampling requires rethinking feature uncertainty ] (https://arxiv.org/pdf/2401.15077)
+- [(2024, Jul) [ICML 2024] EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/pdf/2401.15077)
 - [(2024, Aug) [ACL 2024 Findings] Speculative Decoding via Early-exiting for Faster LLM Inference with Thompson Sampling Control Mechanism](https://aclanthology.org/2024.findings-acl.179.pdf)
 - [(2025, Jul) [AAAI 2026 Workshop: WoMAPF] Parallelism Meets Adaptiveness: Scalable Documents Understanding in Multi-Agent LLM Systems](https://openreview.net/pdf?id=363T05eYLh)
 
@@ -555,11 +625,11 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2024, Nov) [EMNLP 2024] Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate](https://aclanthology.org/2024.emnlp-main.992.pdf)
 - [(2024, Nov) [EMNLP 2024 Findings] Improving Multi-Agent Debate with Sparse Communication Topology](https://aclanthology.org/2024.findings-emnlp.427.pdf)
 
-### Agentic System-Based Improvement (§5.4)
+### Agentic System Improvement (§5.4)
 
 > **§5.4 Agentic System-Based Improvement** extends inference-time refinement to the system level by dynamically adapting prompts, memory, tool libraries, and workflows — enabling self-improvement not by altering internal generation but by evolving the environment in which the model operates.
 
-#### Prompt (§5.4.1)
+#### Prompts (§5.4.1)
 
 > **§5.4.1 Prompts** covers dynamic prompt optimization at inference time, including sampling-based, search-based, evolutionary, and textual-gradient-descent approaches that refine instructions and in-context demonstrations for better task performance.
 
@@ -626,7 +696,7 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 - [(2026, Feb) Evolving from Tool User to Creator via Training-Free Experience Reuse in Multimodal Reasoning](https://arxiv.org/pdf/2602.01983)
 - [(2026, Feb) Evolving from Tool User to Creator via Training-Free Experience Reuse in Multimodal Reasoning](https://arxiv.org/pdf/2602.01983)
 
-#### Workflow (§5.4.4)
+#### Workflow and System Evolution (§5.4.4)
 
 > **§5.4.4 Workflow and System Evolution** covers how multi-agent systems dynamically evolve their communication topology, coordination protocols, and overall architecture — either before or during deployment — to adapt to task-specific requirements.
 
@@ -892,77 +962,229 @@ Within the GRO Framework (§4.2), many methods share common structural patterns 
 
 
 
+### Budget Constraints (§7.7)
 
-## Applications (§8)
+> **§7.7 Budget Constraints** examines the practical feasibility of self-improvement under finite compute. Costs compound from two sources: **iterated compute costs**, since generation, selection, reward computation, optimization, and evaluation are repeated in full at every round; and **strong-model dependence**, since the quality of self-generated data and self-assigned rewards is bounded by the base model's own capability.
 
-> **§8 Applications** surveys how self-improvement mechanisms are applied across diverse domains, enabling specialized agents to iteratively refine their expertise within constrained environments.
+#### Iterated Compute Costs
+
+- [(2022, Mar) [NeurIPS 2022] STaR: Bootstrapping Reasoning With Reasoning](https://arxiv.org/pdf/2203.14465)
+- [(2023, Aug) RFT: Scaling Relationship on Learning Mathematical Reasoning with Large Language Models](https://arxiv.org/pdf/2308.01825)
+- [(2024, Feb) [ICML 2024] LESS: Selecting Influential Data for Targeted Instruction Tuning](https://arxiv.org/pdf/2402.04333)
+- [(2024, Jul) Large Language Monkeys: Scaling Inference Compute with Repeated Sampling](https://arxiv.org/pdf/2407.21787)
+- [(2024, Aug) [ICLR 2025] Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](https://arxiv.org/pdf/2408.03314)
+- [(2024, Oct) [TMLR] FrugalGPT: How to Use Large Language Models While Reducing Cost and Improving Performance](https://openreview.net/pdf?id=cSimKw5p6R)
+- [(2025, Apr) [ICLR 2025] Compute-Constrained Data Selection](https://openreview.net/pdf?id=4es2oO9tw1)
+- [(2025, Jul) [ICML 2025] Do NOT Think That Much for 2+3=? On the Overthinking of Long Reasoning Models](https://openreview.net/pdf?id=MSbU3L7V00)
+- [(2025, Oct) [TMLR] Stop Overthinking: A Survey on Efficient Reasoning for Large Language Models](https://openreview.net/pdf?id=HvoG8SxggZ)
+- [(2026, Jan) [ICLR 2026] Cost-of-Pass: An Economic Framework for Evaluating Language Models](https://openreview.net/pdf?id=vC9S20zsgN)
+
+#### Strong-Model Dependence
+
+- [(2024, Jan) [ICLR 2024] Large Language Models Cannot Self-Correct Reasoning Yet](https://openreview.net/pdf?id=IkmD3fKBPQ)
+- [(2025, Sep) [Nature] DeepSeek-R1 Incentivizes Reasoning in LLMs through Reinforcement Learning](https://www.nature.com/articles/s41586-025-09422-z)
+
+
+
+
+## Potential Risks (§8)
+
+> **§8 Potential Risks** examines the safety concerns that arise even when a self-improvement system works exactly as intended. Whereas §7 covers failure modes at individual stages, this section asks what a *well-functioning* autonomous loop can put at risk, along four dimensions: loss of control, high-stakes harm, social and ethical risks, and misuse risks.
+
+### Loss of Control (§8.1)
+
+> **§8.1 Loss of Control** arises when autonomous and recursive self-improvement lets a model raise the very capabilities that drive its own optimization, so human control over the system progressively weakens. It covers **oversight loss** (supervisors can no longer detect, constrain, or reverse harmful behavior) and **deceptive alignment** (the model behaves as intended only while it judges it is being watched).
+
+#### Oversight Loss
+
+- [(2016) [Oxford University Press] Superintelligence: Paths, Dangers, Strategies](https://global.oup.com/academic/product/superintelligence-9780198739838)
+- [(2017, Nov) AI Safety Gridworlds](https://arxiv.org/pdf/1711.09883)
+- [(2022, Apr) [ICLR 2022] The Effects of Reward Misspecification: Mapping and Mitigating Misaligned Models](https://openreview.net/pdf?id=JYtwGwIL7ye)
+- [(2023, May) Model Evaluation for Extreme Risks](https://arxiv.org/pdf/2305.15324)
+- [(2024, Jan) Sleeper Agents: Training Deceptive LLMs that Persist through Safety Training](https://arxiv.org/pdf/2401.05566)
+- [(2024, Mar) Evaluating Frontier Models for Dangerous Capabilities](https://arxiv.org/pdf/2403.13793)
+- [(2025, Apr) [ICLR 2025] AI Sandbagging: Language Models Can Strategically Underperform on Evaluations](https://openreview.net/pdf?id=7Qa2SpjxIS)
+- [(2026, Jan) [ICLR 2026] Your Agent May Misevolve: Emergent Risks in Self-Evolving LLM Agents](https://openreview.net/pdf?id=Fd1jgQQW28)
+
+#### Deceptive Alignment
+
+- [(2018, May) AI Safety via Debate](https://arxiv.org/pdf/1805.00899)
+- [(2022, Nov) Measuring Progress on Scalable Oversight for Large Language Models](https://arxiv.org/pdf/2211.03540)
+- [(2024, Jun) [NeurIPS 2024 D&B] Me, Myself, and AI: The Situational Awareness Dataset (SAD) for LLMs](https://openreview.net/pdf?id=UnWhcpIyUC)
+- [(2024, Jul) [ICML 2024] Weak-to-Strong Generalization: Eliciting Strong Capabilities with Weak Supervision](https://openreview.net/pdf?id=ghNRg2mEgN)
+- [(2024, Jul) [ICML 2024] AI Control: Improving Safety Despite Intentional Subversion](https://openreview.net/pdf?id=KviM5k8pcP)
+- [(2024, Dec) [NeurIPS 2024] On Scalable Oversight with Weak LLMs Judging Strong LLMs](https://openreview.net/pdf?id=O1fp9nVraj)
+- [(2024, Dec) Frontier Models are Capable of In-Context Scheming](https://arxiv.org/pdf/2412.04984)
+- [(2024, Dec) Alignment Faking in Large Language Models](https://arxiv.org/pdf/2412.14093)
+- [(2025, Mar) Monitoring Reasoning Models for Misbehavior and the Risks of Promoting Obfuscation](https://arxiv.org/pdf/2503.11926)
+- [(2025, Apr) [AI and Ethics] Human Control of AI Systems: From Supervision to Teaming](https://link.springer.com/content/pdf/10.1007/s43681-024-00489-4.pdf)
+- [(2026, Jan) Detecting High-Stakes Interactions with Activation Probes](https://openreview.net/pdf?id=8YniJnJQ0P)
+
+
+### High-Stakes Harm (§8.2)
+
+> **§8.2 High-Stakes Harm** arises when a self-improving agent is deployed in a domain that tolerates little error, such as clinical care or financial markets. A loop that keeps rewriting its own behavior can compound small errors into concrete harm before oversight intervenes, producing **individual harm** (one autonomous decision injures the person it affects) and **systemic failure** (coupled agents destabilize the system they operate in).
+
+#### Individual Harm
+
+- [(2019, Nov) [JAMA] Potential Liability for Physicians Using Artificial Intelligence](https://doi.org/10.1001/jama.2019.15064)
+- [(2020) [Artificial Intelligence in Healthcare] Ethical and Legal Challenges of Artificial Intelligence-Driven Healthcare](https://doi.org/10.1016/B978-0-12-818438-7.00012-5)
+- [(2023, Jul) [Nature] Large Language Models Encode Clinical Knowledge](https://doi.org/10.1038/s41586-023-06291-2)
+- [(2024, Apr) Algorithmic Collusion by Large Language Models](https://arxiv.org/pdf/2404.00806)
+- [(2025, Jan) [Nature Medicine] Toward Expert-Level Medical Question Answering with Large Language Models](https://doi.org/10.1038/s41591-024-03423-7)
+- [(2025, Feb) Exploring Sentiment Manipulation by LLM-Enabled Intelligent Trading Agents](https://arxiv.org/pdf/2502.16343)
+- [(2025, Mar) Medical Hallucinations in Foundation Models and Their Impact on Healthcare](https://arxiv.org/pdf/2503.05777)
+- [(2025) [U.S. FDA] Marketing Submission Recommendations for a Predetermined Change Control Plan for Artificial Intelligence-Enabled Device Software Functions](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/marketing-submission-recommendations-predetermined-change-control-plan-artificial-intelligence)
+
+#### Systemic Failure
+
+- [(2017) [The Journal of Finance] The Flash Crash: High-Frequency Trading in an Electronic Market](https://doi.org/10.1111/jofi.12498)
+- [(2019, Oct) [Science] Dissecting Racial Bias in an Algorithm Used to Manage the Health of Populations](https://www.science.org/doi/abs/10.1126/science.aax2342)
+- [(2021, Jul) [NEJM] The Clinician and Dataset Shift in Artificial Intelligence](https://www.nejm.org/doi/full/10.1056/NEJMc2104626)
+- [(2024) [Financial Stability Board] The Financial Stability Implications of Artificial Intelligence](https://www.fsb.org/2024/11/the-financial-stability-implications-of-artificial-intelligence/)
+- [(2024) [Bank of England] Artificial Intelligence in UK Financial Services](https://www.bankofengland.co.uk/report/2024/artificial-intelligence-in-uk-financial-services-2024)
+- [(2024, Oct) [IMF] Steadying the Course: Uncertainty, Artificial Intelligence, and Financial Stability](https://www.imf.org/en/publications/gfsr/issues/2024/10/22/global-financial-stability-report-october-2024)
+- [(2025, Jan) [JAMA] Testing and Evaluation of Health Care Applications of Large Language Models: A Systematic Review](https://doi.org/10.1001/jama.2024.21700)
+- [(2025, Jun) [JAMA Network Open] Detecting and Remediating Harmful Data Shifts for the Responsible Deployment of Clinical AI Models](https://doi.org/10.1001/jamanetworkopen.2025.13685)
+- [(2025, Dec) [NeurIPS 2025 Position] Statistically Valid Post-Deployment Monitoring Should Be Standard for AI-Based Digital Health](https://openreview.net/pdf?id=mXBFoHDuil)
+
+
+### Social and Ethical Risks (§8.3)
+
+> **§8.3 Social and Ethical Risks** arise when self-improvement systems are deployed at scale and outpace the institutions, norms, and accountability structures meant to govern them. It covers **social disruption** (labor displacement, power concentration, degradation of the information commons) and **ethical breakdown** (the responsibility gap, value lock-in, and erosion of human agency).
+
+#### Social Disruption
+
+- [(2019, May) [Journal of Economic Perspectives] Automation and New Tasks: How Technology Displaces and Reinstates Labor](https://www.aeaweb.org/articles?id=10.1257/jep.33.2.3)
+- [(2023, Jul) [ICML 2023] A Watermark for Large Language Models](https://proceedings.mlr.press/v202/kirchenbauer23a/kirchenbauer23a.pdf)
+- [(2024, Feb) Computing Power and the Governance of Artificial Intelligence](https://arxiv.org/pdf/2402.08797)
+- [(2024, May) [NBER] The Simple Macroeconomics of AI](http://www.nber.org/papers/w32487)
+- [(2024, Jun) [Science] GPTs are GPTs: Labor Market Impact Potential of LLMs](https://www.science.org/doi/abs/10.1126/science.adj0998)
+- [(2024, Jul) [Nature] AI Models Collapse When Trained on Recursively Generated Data](https://www.nature.com/articles/s41586-024-07566-y)
+- [(2025, Apr) [PNAS Nexus] AI Exposure Predicts Unemployment Risk: A New Approach to Technology-Driven Job Loss](https://doi.org/10.1093/pnasnexus/pgaf107)
+- [(2025) [TMLR] Can AI-Generated Text be Reliably Detected? Stress Testing AI Text Detectors Under Various Attacks](https://openreview.net/pdf?id=OOgsAZdFOt)
+
+#### Ethical Breakdown
+
+- [(1999) [International Journal of Human-Computer Studies] Does Automation Bias Decision-Making?](https://www.sciencedirect.com/science/article/pii/S1071581999902525)
+- [(2004, Sep) [Ethics and Information Technology] The Responsibility Gap: Ascribing Responsibility for the Actions of Learning Automata](https://doi.org/10.1007/s10676-004-3422-1)
+- [(2022, Jun) [FAccT 2022] Who Audits the Auditors? Recommendations from a Field Scan of the Algorithmic Auditing Ecosystem](https://doi.org/10.1145/3531146.3533213)
+- [(2023, Jul) Frontier AI Regulation: Managing Emerging Risks to Public Safety](https://arxiv.org/pdf/2307.03718)
+- [(2024, May) [Science] Managing Extreme AI Risks amid Rapid Progress](https://www.science.org/doi/abs/10.1126/science.adn0117)
+- [(2025, Jan) Gradual Disempowerment: Systemic Existential Risks from Incremental AI Development](https://arxiv.org/pdf/2501.16946)
+- [(2025, Feb) Fully Autonomous AI Agents Should Not Be Developed](https://arxiv.org/pdf/2502.02649)
+
+
+### Misuse Risks (§8.4)
+
+> **§8.4 Misuse Risks** concern the ways a self-improving system can harm the user and the systems it acts on, or be turned into an instrument of attack, because it couples autonomous optimization with broad tool, code, and data access. It covers **unintended damage** from ordinary goal pursuit and **deliberate misuse** by adversarial operators or by the model optimizing its own harmful capability.
+
+#### Unintended Damage
+
+- [(2019, Jul) [HotCloud 19] The True Cost of Containing: A gVisor Case Study](https://www.usenix.org/conference/hotcloud19/presentation/young)
+- [(2023, Dec) [OpenAI] Practices for Governing Agentic AI Systems](https://cdn.openai.com/papers/practices-for-governing-agentic-ai-systems.pdf)
+- [(2024, May) [ICLR 2024] Identifying the Risks of LM Agents with an LM-Emulated Sandbox](https://openreview.net/pdf?id=GEcwtMk1uA)
+
+#### Deliberate Misuse
+
+- [(2024, Apr) [ICML 2024 Workshop: Next Generation of AI Safety] Jailbreaking Leading Safety-Aligned LLMs with Simple Adaptive Attacks](https://openreview.net/pdf?id=A6NDhcjXvC)
+- [(2024, Jun) [NeurIPS 2024] Refusal in Language Models Is Mediated by a Single Direction](https://openreview.net/pdf?id=pH3XAQME6c)
+- [(2025, Apr) [ICLR 2025] Cybench: A Framework for Evaluating Cybersecurity Capabilities and Risks of Language Models](https://openreview.net/pdf?id=tc90LV0yRL)
+- [(2025, Aug) [USENIX Security 25] We Have a Package for You! A Comprehensive Analysis of Package Hallucinations by Code Generating LLMs](https://www.usenix.org/conference/usenixsecurity25/presentation/spracklen)
+- [(2026, Jan) [ICLR 2026] Your Agent May Misevolve: Emergent Risks in Self-Evolving LLM Agents](https://openreview.net/pdf?id=Fd1jgQQW28)
+
+
+
+
+## Applications (§9)
+
+> **§9 Applications** surveys how self-improvement mechanisms are applied across six domains, enabling specialized models and self-evolving agents to iteratively refine their expertise within constrained environments.
 
 ### Code
 
-- [(2025, Sep) Autonomous Code Evolution Meets NP-Completeness](https://arxiv.org/pdf/2509.07367)
-- [(2025, Jun) [NeurIPS 2025] Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](https://arxiv.org/pdf/2506.03136)
+> Coding agents achieve self-evolution by exploiting the definitive feedback from compilers and unit tests across the software development lifecycle.
+
+- [(2025, Jun) [NeurIPS 2025] CURE: Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning](https://arxiv.org/pdf/2506.03136)
+- [(2025, Sep) SATLUTION: Autonomous Code Evolution Meets NP-Completeness](https://arxiv.org/pdf/2509.07367)
 - [(2025, Sep) [ICSME 2025] LLMLOOP: Improving LLM-Generated Code and Tests through Automated Iterative Feedback Loops](https://valerio-terragni.github.io/assets/pdf/ravi-icsme-2025.pdf)
-- [(2025, Jun) [ICLR 2026] ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://arxiv.org/pdf/2506.11442)
-- [(2025, Dec) Toward Training Superintelligent Software Agents through Self-Play SWE-RL](https://arxiv.org/pdf/2512.18552)
-- [(2025, Oct) [ICLR 2026] Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/pdf/2510.04618)
+- [(2025, Oct) [ICLR 2026] ACE: Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models](https://arxiv.org/pdf/2510.04618)
+- [(2025, Dec) SSR: Toward Training Superintelligent Software Agents through Self-Play SWE-RL](https://arxiv.org/pdf/2512.18552)
+- [(2026, Jan) [ICLR 2026] ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://arxiv.org/pdf/2506.11442)
 
 
 ### Math
 
-- [(2024, Aug) SIaM: Self-Improving Code-Assisted Mathematical Reasoning of Large Language Models](https://arxiv.org/pdf/2408.15565)
-- [(2025, Feb) [COLM 2025] Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving](https://arxiv.org/pdf/2502.07640)
-- [(2025, Nov) OpenSIR: Open-Ended Self-Improving Reasoner](https://arxiv.org/pdf/2511.00602)
-- [(2025, Mar) Self-Evolved Preference Optimization for Enhancing Mathematical Reasoning in Small Language Models](https://arxiv.org/pdf/2503.04813)
-- [(2025, Feb) Self-rewarding correction for mathematical reasoning](https://arxiv.org/pdf/2502.19613)
-- [(2025, Jan) [ICML 2025] rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/pdf/2501.04519)
+> Mathematical self-evolution relies on formal logical consistency and rigorous verification of reasoning paths, from code-assisted execution to formal theorem proving.
 
-### Medicine
+- [(2024, Aug) SIaM: Self-Improving Code-Assisted Mathematical Reasoning of Large Language Models](https://arxiv.org/pdf/2408.15565)
+- [(2025, Jan) [ICML 2025] rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking](https://arxiv.org/pdf/2501.04519)
+- [(2025, Feb) [COLM 2025] Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving](https://arxiv.org/pdf/2502.07640)
+- [(2025, Feb) Self-Rewarding Correction for Mathematical Reasoning](https://arxiv.org/pdf/2502.19613)
+- [(2025, Mar) SPHERE: Self-Evolved Preference Optimization for Enhancing Mathematical Reasoning in Small Language Models](https://arxiv.org/pdf/2503.04813)
+- [(2025, Nov) OpenSIR: Open-Ended Self-Improving Reasoner](https://arxiv.org/pdf/2511.00602)
+
+
+### Healthcare
+
+> Self-evolving systems in healthcare emphasize clinical safety, diagnostic accuracy, and multidisciplinary collaboration.
+
 - [(2024, May) Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents](https://arxiv.org/pdf/2405.02957)
-- [(2025, Aug) HealthFlow: A Self-Evolving AI Agent with Meta Planning for Autonomous Healthcare Research](https://arxiv.org/pdf/2508.02621)
 - [(2025, Mar) MDTeamGPT: A Self-Evolving LLM-based Multi-Agent Framework for Multi-Disciplinary Team Medical Consultation](https://arxiv.org/pdf/2503.13856)
-- [(2025, Mar) [MICCAI 2025] Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions](https://arxiv.org/pdf/2503.22678)
-- [(2026, Jan) EvoClinician: A Self-Evolving Agent for Multi-Turn Medical Diagnosis via Test-Time Evolutionary Learning](https://arxiv.org/pdf/2601.22964)
+- [(2025, Mar) [MICCAI 2025] MedAgentSim: Self-Evolving Multi-Agent Simulations for Realistic Clinical Interactions](https://arxiv.org/pdf/2503.22678)
+- [(2025, Aug) HealthFlow: A Self-Evolving AI Agent with Meta Planning for Autonomous Healthcare Research](https://arxiv.org/pdf/2508.02621)
 - [(2025, Oct) MedReflect: Teaching Medical LLMs to Self-Improve via Reflective Correction](https://arxiv.org/pdf/2510.03687)
+- [(2026, Jan) EvoClinician: A Self-Evolving Agent for Multi-Turn Medical Diagnosis via Test-Time Evolutionary Learning](https://arxiv.org/pdf/2601.22964)
 
 
 ### Finance
+
+> Financial agents evolve their strategies in high-noise environments by utilizing layered memory and risk-sensitive simulation.
+
 - [(2023, Nov) [ICLR 2024 Workshop: LLMAgents] FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design](https://arxiv.org/pdf/2311.13743)
-- [(2024, Feb) [KDD 2024] A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist](https://arxiv.org/pdf/2402.18485)
+- [(2024, Feb) [KDD 2024] FinAgent: A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist](https://arxiv.org/pdf/2402.18485)
+- [(2025, Mar) [JRTCSE] Self-Evolving AI Agents for Financial Risk Prediction Using Continual Learning and Neuro-Symbolic Reasoning](https://jrtcse.com/index.php/home/article/view/JRTCSE.2025.13.2.8/JRTCSE.2025.13.2.8)
 - [(2025, Aug) AlphaAgents: Large Language Model based Multi-Agents for Equity Portfolio Constructions](https://arxiv.org/pdf/2508.11152)
-- [(2025, Nov) FINRS: A Risk-Sensitive Trading Framework for Real Financial Markets](https://arxiv.org/pdf/2511.12599)
+- [(2025, Nov) FinRS: A Risk-Sensitive Trading Framework for Real Financial Markets](https://arxiv.org/pdf/2511.12599)
 - [(2025, Nov) [EMNLP 2025 Findings] QuantAgents: Towards Multi-agent Financial System via Simulated Trading](https://aclanthology.org/2025.findings-emnlp.945.pdf)
-- [(2025, March) [JRTCSE] Self-Evolving AI Agents for Financial Risk Prediction Using Continual Learning and Neuro-Symbolic Reasoning](https://jrtcse.com/index.php/home/article/view/JRTCSE.2025.13.2.8/JRTCSE.2025.13.2.8)
-
-
-### Algorithm
-- [(2025, Jul) [ACL 2025] Gödel Agent: A Self-Referential Agent Framework for Recursively Self-Improvement](https://aclanthology.org/2025.acl-long.1354.pdf)
-- [(2025, Jun) AlphaEvolve: A coding agent for scientific and algorithmic discovery](https://arxiv.org/pdf/2506.13131)
-- [(2025, Apr) [NAACL 2025] Can Large Language Models Invent Algorithms to Improve Themselves?: Algorithm Discovery for Recursive Self-Improvement through Reinforcement Learning](https://aclanthology.org/2025.naacl-long.519v2.pdf)
-- [(2025, May) [ICLR 2026] Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/pdf/2505.22954?)
-- [(2025, Jun) [NeurIPS 2025] Self-Adapting Language Models](https://arxiv.org/pdf/2506.10943v1)
 
 
 ### Science
-- [(2024, Nov) MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration](https://arxiv.org/pdf/2411.08063)
-- [(2024, Sep) [Advanced Materials] SciAgents: Automating scientific discovery through multi-agent intelligent graph reasoning](https://arxiv.org/pdf/2409.05556)
-- [(2025, Nov) [EMNLP 2025 Findings] Agent Laboratory: Using LLM Agents as Research Assistants](https://aclanthology.org/2025.findings-emnlp.320.pdf)
-- [(2025, Dec) Knowledge-extractor: a self-evolving scientific framework for hydrogen energy research driven by AI agents
-](https://www.oaepublish.com/articles/aiagent.2025.04)
-- [(2025, Apr) The AI Cosmologist I: An Agentic System for Automated Data Analysis](https://arxiv.org/pdf/2504.03424)
-- [(2025, Apr) The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search](https://arxiv.org/pdf/2504.08066?)
-- [(2025, Feb) Towards an AI co-scientist](https://arxiv.org/pdf/2502.18864)
-- [(2026, Feb) S1-NexusAgent: a Self-Evolving Agent Framework for Multidisciplinary Scientific Research](https://arxiv.org/pdf/2602.01550)
 
-### Others
-- [(2024, Aug) [ICLR 2025] Automated Design of Agentic Systems](https://arxiv.org/pdf/2408.08435)
+> Scientific applications center on self-improving agents that autonomously make discoveries, spanning natural-science findings, novel algorithms, and improved agent designs.
+
+- [(2024, Aug) [ICLR 2025] ADAS: Automated Design of Agentic Systems](https://arxiv.org/pdf/2408.08435)
+- [(2024, Sep) [Advanced Materials] SciAgents: Automating Scientific Discovery through Multi-Agent Intelligent Graph Reasoning](https://arxiv.org/pdf/2409.05556)
+- [(2024, Nov) MatPilot: An LLM-Enabled AI Materials Scientist under the Framework of Human-Machine Collaboration](https://arxiv.org/pdf/2411.08063)
+- [(2025, Apr) [NAACL 2025] Self-Developing: Can Large Language Models Invent Algorithms to Improve Themselves?](https://aclanthology.org/2025.naacl-long.519v2.pdf)
+- [(2025, Apr) The AI Cosmologist I: An Agentic System for Automated Data Analysis](https://arxiv.org/pdf/2504.03424)
+- [(2025, May) [ICLR 2026] DGM: Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/pdf/2505.22954)
+- [(2025, Jun) [NeurIPS 2025] SEAL: Self-Adapting Language Models](https://arxiv.org/pdf/2506.10943v1)
+- [(2025, Jun) AlphaEvolve: A Coding Agent for Scientific and Algorithmic Discovery](https://arxiv.org/pdf/2506.13131)
+- [(2025, Jul) [ACL 2025] Gödel Agent: A Self-Referential Agent Framework for Recursively Self-Improvement](https://aclanthology.org/2025.acl-long.1354.pdf)
 - [(2025, Nov) AgentEvolver: Towards Efficient Self-Evolving Agent System](https://arxiv.org/pdf/2511.10395)
-- [(2026, Feb) Introducing FARS](https://analemma.ai/blog/introducing-fars/)
+- [(2025, Dec) Knowledge-Extractor: A Self-Evolving Scientific Framework for Hydrogen Energy Research Driven by AI Agents](https://www.oaepublish.com/articles/aiagent.2025.04)
+
+
+### Auto Research
+
+> Whereas the systems above target discovery, a distinct line pursues end-to-end research automation, where a single agentic system carries a project through the full scholarly lifecycle: ideation, experimental design and execution, manuscript writing, and validation.
+
+- [(2025, Feb) AI Co-Scientist: Accelerating Scientific Discovery with Co-Scientist](https://arxiv.org/pdf/2502.18864)
+- [(2025, Apr) The AI Scientist-v2: Workshop-Level Automated Scientific Discovery via Agentic Tree Search](https://arxiv.org/pdf/2504.08066)
+- [(2025, May) InternAgent: When Agent Becomes the Scientist -- Building Closed-Loop System from Hypothesis to Verification](https://arxiv.org/pdf/2505.16938)
+- [(2025, Nov) [EMNLP 2025 Findings] Agent Laboratory: Using LLM Agents as Research Assistants](https://aclanthology.org/2025.findings-emnlp.320.pdf)
+- [(2026, Jan) Paper2Rebuttal: A Multi-Agent Framework for Transparent Author Response Assistance](https://arxiv.org/pdf/2601.14171)
+- [(2026, Feb) S1-NexusAgent: A Self-Evolving Agent Framework for Multidisciplinary Scientific Research](https://arxiv.org/pdf/2602.01550)
+- [(2026, Feb) FARS: Introducing FARS](https://analemma.ai/blog/introducing-fars/)
 - [(2026, Mar) AutoResearchClaw: Fully Autonomous Research from Idea to Paper](https://github.com/aiming-lab/AutoResearchClaw)
+- [(2026, Apr) PaperOrchestra: A Multi-Agent Framework for Automated AI Research Paper Writing](https://arxiv.org/pdf/2604.05018)
+- [(2026, May) AI for Auto-Research: Roadmap & User Guide](https://arxiv.org/pdf/2605.18661)
+- [(2026, Jun) Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy](https://arxiv.org/pdf/2606.24177)
 
 
 <br>
 
-# 🔭 Future Outlook
+# Future Outlook (§10)
 
 ### 1. From Model-Level Optimization to End-to-End Self-Improving Systems
 Future work may move beyond improving individual components toward **end-to-end self-improvement system** that continuously generate data, evaluate outputs, and update themselves within an automated loop.
@@ -974,21 +1196,21 @@ Self-improvement mechanisms are increasingly applied in **domain-specific settin
 The field still lacks **standardized benchmarks** designed to measure iterative improvement, stability across cycles, and long-term capability growth.
 
 ### 4. Balancing Automation and Human Oversight
-Future systems must **balance autonomous improvement with human supervision** to ensure scalability while maintaining safety, reliability, and alignment.
+Future systems must **balance autonomous improvement with human supervision** to ensure scalability while maintaining safety, reliability, and alignment. The risks analyzed in §8, from oversight loss and deceptive alignment to high-stakes harm and misuse, arise precisely when human control over the improvement loop weakens.
 
 
-# 📖 Citation
+# Citation
 
 If you find this work useful, please cite:
 
 ```bibtex
 @misc{yang2026selfimprovementlargelanguagemodels,
-      title={Self-Improvement of Large Language Models: A Technical Overview and Future Outlook}, 
+      title={Self-Improvement of Large Language Models: A Technical Overview and Future Outlook},
       author={Haoyan Yang and Mario Xerri and Solha Park and Huajian Zhang and Yiyang Feng and Sai Akhil Kogilathota and Jiawei Zhou},
       year={2026},
       eprint={2603.25681},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2603.25681}, 
+      url={https://arxiv.org/abs/2603.25681}
 }
 ```
