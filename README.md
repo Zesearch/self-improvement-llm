@@ -2,24 +2,26 @@
 
 # Self-Improvement of Large Language Models: A Technical Overview and Future Outlook
 
-### 
-
-<p align="center">
-  <a href="https://arxiv.org/abs/2603.25681v2"><img src="https://img.shields.io/badge/Paper-TMLR-b31b1b?style=for-the-badge"></a>
-  <a href="https://zesearch.github.io/self-improvement-llm-website/"><img src="https://img.shields.io/badge/Website-Live-blue?style=for-the-badge"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Slides-ComingSoon-yellow?style=for-the-badge"></a>
-</p>
-
-### <a href="mailto:haoyan.yang@stonybrook.edu">Haoyan Yang</a> · <a href="mailto:mario.xerri@stonybrook.edu">Mario Xerri</a> · <a href="mailto:solha.park@stonybrook.edu">Solha Park</a> · <a href="mailto:huajian.zhang@stonybrook.edu">Huajian Zhang</a>
-
-### <a href="mailto:yiyang.feng@stonybrook.edu">Yiyang Feng</a> · <a href="mailto:saiakhilkogilathota@gmail.com">Sai Akhil Kogilathota</a> · <a href="mailto:jiawei.zhou.1@stonybrook.edu">Jiawei Zhou</a>
-
-Zesearch NLP Lab, Stony Brook University
+<h3 style="margin-top: 0.25rem;">
+  Haoyan Yang · Mario Xerri · Solha Park · Huajian Zhang
+  <br>
+  Yiyang Feng · Sai Akhil Kogilathota · Jiawei Zhou
+  <br><br>
+  Zesearch NLP Lab, Stony Brook University
+</h3>
 
 </div>
 
+<h3 align="center">
+  <a href="https://arxiv.org/abs/2603.25681v3">Paper</a> ·
+  <a href="https://zesearch.github.io/self-improvement-llm-website/">Website</a> ·
+  <a href="https://github.com/Zesearch/self-improvement-llm">GitHub</a>
+</h3>
+
 # News
 
+- **[2026.09]** 🚀 We implemented the blueprint presented in this survey and released [**Zevo**](https://zevoai.dev), a multi-agent self-improving system for evolving language models. See the [**website**](https://zevoai.dev) and [**GitHub repository**](https://github.com/Zesearch/Zevo) for details.
+- **[2026.09]** 🚀 We released the [**TMLR camera-ready version**](https://arxiv.org/abs/2603.25681v3) of our survey, with several recent references added.
 - **[2026.08]** 🚀 We released a [**new version**](https://arxiv.org/abs/2603.25681v2) of our paper, with a restructured **Model Optimization (§4)**, a new section on **Potential Risks (§8)**, and an expanded **Applications (§9)**.
 - **[2026.08]** 🎉 Our paper was accepted to [**TMLR**](https://jmlr.org/tmlr/) and awarded a [**Survey Certification**](https://jmlr.org/tmlr/papers/)!
 - **[2026.08]** 🎉 Our paper was covered by [**SBU News**](https://news.stonybrook.edu/academics/college-of-engineering-and-applied-sciences/stony-brook-researchers-create-a-blueprint-for-self-improving-language-models/).
@@ -176,6 +178,12 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2023, Oct) [ICLR 2024] OpenWebMath: An Open Dataset of High-Quality Mathematical Web Text](https://arxiv.org/pdf/2310.06786)
 - [(2024, Feb) StarCoder 2 and The Stack v2: The Next Generation](https://arxiv.org/pdf/2402.19173)
 
+#### Books
+
+- [(2015, Dec) [ICCV 2015] Aligning Books and Movies: Towards Story-Like Visual Explanations by Watching Movies and Reading Books](https://arxiv.org/abs/1506.06724)
+- [(2020, Dec) The Pile: An 800GB Dataset of Diverse Text for Language Modeling](https://arxiv.org/pdf/2101.00027)
+- [(2024) [NeurIPS 2024 D&B] RedPajama: An Open Dataset for Training Large Language Models](https://openreview.net/forum?id=lnuXaRpwvw)
+
 #### Automatic Data Preparation
 
 - [(2026, Jan) Can LLMs Clean Up Your Mess? A Survey of Application-Ready Data Preparation with LLMs](https://arxiv.org/abs/2601.17058)
@@ -228,6 +236,8 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2024, Oct) [MATH-AI Workshop, NeurIPS 2024] Constraint-Based Synthetic Data Generation for LLM Mathematical Reasoning](https://files.sri.inf.ethz.ch/z3_llm/z3_llm.pdf)
 - [(2024, Dec) Phi-4 Technical Report](https://arxiv.org/pdf/2412.08905)
 - [(2025, Jul) CoT-Self-Instruct: Building high-quality synthetic prompts for reasoning and non-reasoning tasks](https://arxiv.org/pdf/2507.23751)
+- [(2026, Jun) Autodata: An Agentic Data Scientist to Create High Quality Synthetic Data](https://arxiv.org/abs/2606.25996)
+- [(2026, Jul) [ACL 2026] Aligning Large Language Models via Fully Self-Synthetic Data](https://aclanthology.org/2026.acl-long.1595/)
 
 #### Transformation-Based (§2.4.2)
 
@@ -251,6 +261,7 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2025, Aug) [ICLR 2026] R-Zero: Self-Evolving Reasoning LLM from Zero Data](https://arxiv.org/pdf/2508.05004)
 - [(2025, Sep) Language Self-Play For Data-Free Training](https://arxiv.org/pdf/2509.07414)
 - [(2025, Nov) [EMNLP 2025] Empowering Math Problem Generation and Reasoning for Large Language Model via Synthetic Data based Continual Learning Framework](https://aclanthology.org/2025.emnlp-main.1223.pdf)
+- [(2026, Mar) EigenData: A Self-Evolving Multi-Agent Platform for Function-Calling Data Synthesis, Auditing, and Repair](https://arxiv.org/abs/2603.05553)
 
 
 
@@ -325,7 +336,11 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2025, Nov) [EMNLP 2025 Findings] Scale Down to Speed Up: Dynamic Data Selection for Reinforcement Learning](https://aclanthology.org/2025.findings-emnlp.412.pdf)
 - [(2025, Dec) [NeurIPS 2025] Group-Level Data Selection for Efficient Pretraining](https://openreview.net/pdf?id=uX4dyc7Z5Z)
 - [(2025, Dec) [NeurIPS 2025 Workshop: Reliable ML from Unreliable Data] RL-Guided Data Selection for Language Model Finetuning](https://openreview.net/pdf?id=YfMIkHYxP0)
+- [(2026, Jan) [ICML 2026] Teaching Models to Teach Themselves: Reasoning at the Edge of Learnability](https://arxiv.org/abs/2601.18778)
 - [(2026, Apr) Joint Selection for Large-Scale Pre-Training Data via Policy Gradient-based Mask Learning](https://openreview.net/pdf?id=fs2uDib85s)
+- [(2026, Jul) [ACL 2026] Counteracting the Matthew Effect in Self-Improvement of LVLMs through Head-Tail Re-balancing](https://aclanthology.org/2026.acl-long.1010/)
+- [(2026, Jul) [ACL 2026 Findings] DynamixSFT: Dynamic Mixture Optimization of Instruction Tuning Collections](https://aclanthology.org/2026.findings-acl.1972/)
+- [(2026, Jul) [ACL 2026 Findings] EvoCoT: Overcoming the Exploration Bottleneck in Reinforcement Learning for LLMs](https://aclanthology.org/2026.findings-acl.1031/)
 
 
 
@@ -346,6 +361,7 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2024, Jun) [ICLR 2025] Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing](https://openreview.net/pdf?id=Pnk7vMbznK)
 - [(2025, Jan) Learn-by-Interact: A Data-Centric Framework for Self-Adaptive Agents in Realistic Environments](https://arxiv.org/pdf/2501.10893)
 - [(2025, May) [NeurIPS 2025] LongMagpie: A Self-Synthesis Method for Generating Large-Scale Long-Context Instructions](https://openreview.net/pdf?id=tuA2R6gZEA)
+- [(2026, Jul) [ACL 2026] Aligning Large Language Models via Fully Self-Synthetic Data](https://aclanthology.org/2026.acl-long.1595/)
 
 
 ### Self-Generated Optimization (§4.3)
@@ -411,6 +427,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 | [(2025, Dec) SSR: Toward Training Superintelligent Software Agents through Self-Play SWE-RL](https://arxiv.org/pdf/2512.18552) | I | H & V | SWE-RL |
 | [(2026, Jan) [ICLR 2026] ReVeal: Self-Evolving Code Agents via Reliable Self-Verification](https://arxiv.org/pdf/2506.11442) | I | H & V | TAPO |
 | [(2026, Jan) Dr. Zero: Self-Evolving Search Agents without Training Data](https://arxiv.org/pdf/2601.07055) | I | V | GRPO & HRPO |
+| [(2026, Jul) [ACL 2026 Findings] EvoCoT: Overcoming the Exploration Bottleneck in Reinforcement Learning for LLMs](https://aclanthology.org/2026.findings-acl.1031/) | SE | V | GRPO |
 
 
 #### Representative Instances of SGO (§4.3.4)
@@ -474,6 +491,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, May) Can Large Reasoning Models Self-Train?](https://arxiv.org/pdf/2505.21444)
 - [(2025, Jun) [ICLR 2026] Theoretical Modeling of Large Language Model Self-Improvement Training Dynamics Through Solver-Verifier Gap](https://arxiv.org/pdf/2507.00075)
 - [(2026, Feb) Self-Play Only Evolves When Self-Synthetic Pipeline Ensures Learnable Information Gain](https://arxiv.org/pdf/2603.02218)
+- [(2026, Mar) [EACL 2026 Findings] Demystifying Mixed Outcomes of Self-Training: Pre-training Analyses on Non-Toy LLMs](https://aclanthology.org/2026.findings-eacl.213/)
 - [(2026, Apr) Peer-Predictive Self-Training for Language Model Reasoning](https://arxiv.org/pdf/2604.13356)
 - [(2026, Jul) [ICML 2026] On the Generalization Gap in Self-Evolving Language Model Reasoning](https://openreview.net/pdf?id=mnUidYi5qO)
 
@@ -531,6 +549,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 
 - [(2021, Nov) [EMNLP 2021] PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models](https://aclanthology.org/2021.emnlp-main.779.pdf)
 - [(2022, July) [NAACL 2022] NeuroLogic A*esque Decoding: Constrained Text Generation with Lookahead Heuristics](https://aclanthology.org/2022.naacl-main.57.pdf)
+- [(2022, Jul) [NAACL 2022] Inducing and Using Alignments for Transition-Based AMR Parsing](https://aclanthology.org/2022.naacl-main.80/)
 - [(2022, Dec) [NeurIPS 2022] NaturalProver: Grounded Mathematical Proof Generation with Language Models](https://proceedings.neurips.cc/paper_files/paper/2022/file/1fc548a8243ad06616eee731e0572927-Paper-Conference.pdf)
 - [(2023, Jul) [ACL 2023] Contrastive Decoding: Open-ended Text Generation as Optimization](https://aclanthology.org/2023.acl-long.687.pdf)
 - [(2023, Sep) Contrastive Decoding Improves Reasoning in Large Language Models](https://arxiv.org/pdf/2309.09117)
@@ -552,17 +571,23 @@ The table below organizes SGO methods by their generation strategy, reward type,
 
 > **§5.2.4 Efficiency-Oriented Methods** accelerate inference through speculative decoding, parallel generation, and other techniques that reduce latency while maintaining output quality.
 
-- [(2022, May) [ACL 2022] Dynatask: A Framework for Creating Dynamic AI Benchmark Tasks](https://aclanthology.org/2022.acl-demo.17.pdf)
+- [(2021, Jul) [ICML 2021] Linear Transformers Are Secretly Fast Weight Programmers](https://proceedings.mlr.press/v139/schlag21a.html)
 - [(2022, Nov) [ICML 2023] Fast Inference from Transformers via Speculative Decoding](https://arxiv.org/pdf/2211.17192)
+- [(2022, Dec) [NeurIPS 2022] FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness](https://openreview.net/forum?id=H4DqfPSibmx)
 - [(2023, Feb) Accelerating Large Language Model Decoding with Speculative Sampling](https://arxiv.org/pdf/2302.01318)
 - [(2023, Jul) [ACL 2023] Accelerating Transformer Inference for Translation via Parallel Decoding](https://aclanthology.org/2023.acl-long.689.pdf)
 - [(2023, Jul) [ICLR 2024] Skeleton-of-Thought: Prompting LLMs for Efficient Parallel Generation](https://openreview.net/pdf?id=mqVgBbNCm9)
+- [(2023, Oct) [SOSP 2023] Efficient Memory Management for Large Language Model Serving with PagedAttention](https://doi.org/10.1145/3600006.3613165)
 - [(2023, Dec) [EMNLP 2023 Findings] Speculative Decoding: Exploiting Speculative Execution for Accelerating Seq2seq Generation](https://aclanthology.org/2023.findings-emnlp.257.pdf)
 - [(2024, May) [ICML 2024] Medusa: Simple LLM Inference Acceleration Framework with Multiple Decoding Heads](https://openreview.net/pdf?id=PEpbUobfJv)
 - [(2024, May) [ICML 2024] Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://openreview.net/pdf?id=eDjvSFOkXw)
 - [(2024, Jul) [ICML 2024] EAGLE: Speculative Sampling Requires Rethinking Feature Uncertainty](https://arxiv.org/pdf/2401.15077)
 - [(2024, Aug) [ACL 2024 Findings] Speculative Decoding via Early-exiting for Faster LLM Inference with Thompson Sampling Control Mechanism](https://aclanthology.org/2024.findings-acl.179.pdf)
+- [(2025) [NeurIPS 2025] Jet-Nemotron: Efficient Language Model with Post Neural Architecture Search](https://openreview.net/forum?id=WZQXaTNYEB)
 - [(2025, Jul) [AAAI 2026 Workshop: WoMAPF] Parallelism Meets Adaptiveness: Scalable Documents Understanding in Multi-Agent LLM Systems](https://openreview.net/pdf?id=363T05eYLh)
+- [(2025, Oct) LMCache: An Efficient KV Cache Layer for Enterprise-Scale LLM Inference](https://arxiv.org/abs/2510.09665)
+- [(2026, Apr) [ICLR 2026] Distilling to Hybrid Attention Models via KL-Guided Layer Selection](https://openreview.net/forum?id=RzbsHcFqIf)
+- [(2026, Aug) Reduced Matrix Multiplication: Input-Adaptive Matrix-Product Reduction for LLM Inference](https://arxiv.org/abs/2608.13426)
 
 
 ### Reasoning-Based Improvement (§5.3)
@@ -590,6 +615,8 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, May) [ICML 2025] AlphaVerus: Bootstrapping Formally Verified Code Generation through Self-Improving Translation and Treefinement](https://openreview.net/pdf?id=tU8QKX4dMI)
 - [(2025, May) [ICML 2025] Test-Time Preference Optimization: On-the-Fly Alignment via Iterative Textual Feedback](https://openreview.net/pdf?id=ArifAHrEVD)
 - [(2025, Oct) Iterative Critique-Refine Framework for Enhancing LLM Personalization](https://arxiv.org/pdf/2510.24469)
+- [(2026, Jul) [ACL 2026] CURE: Critique-Driven Unified Reinforcement Learning for Test-Time Self-Improvement](https://aclanthology.org/2026.acl-long.1321/)
+- [(2026, Jul) [ACL 2026] Self-Reflective Generation at Test Time](https://aclanthology.org/2026.acl-long.465/)
 
 
 #### Planning-Based Reasoning (§5.3.2)
@@ -655,7 +682,9 @@ The table below organizes SGO methods by their generation strategy, reward type,
 
 - [(2023, Oct) MemGPT: Towards LLMs as Operating Systems](https://arxiv.org/pdf/2310.08560)
 - [(2024, Mar) [AAAI 2024] MemoryBank: Enhancing Large Language Models with Long-Term Memory](https://arxiv.org/pdf/2305.10250)
+- [(2024, May) [ICML 2024] MEMORYLLM: Towards Self-Updatable Large Language Models](https://openreview.net/pdf?id=p0lKWzdikQ)
 - [(2024, Jun) [NAACL 2024] Neurocache: Efficient Vector Retrieval for Long-range Language Modeling](https://aclanthology.org/2024.naacl-long.50.pdf)
+- [(2025, Apr) [NAACL 2025] Context-Efficient Retrieval with Factual Decomposition](https://aclanthology.org/2025.naacl-short.16/)
 - [(2025, Apr) Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory](https://arxiv.org/pdf/2504.19413)
 - [(2025, Jul) MIRIX: Multi-Agent Memory System for LLM-Based Agents](https://arxiv.org/pdf/2507.07957)
 - [(2025, Aug) Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning](https://arxiv.org/pdf/2508.19828)
@@ -666,7 +695,11 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2026, Jan) [ICLR 2026] MEM1: Learning to Synergize Memory and Reasoning for Efficient Long-Horizon Agents](https://openreview.net/pdf?id=XY8AaxDSLb)
 - [(2026, Jan) [ICLR 2026] MemAgent: Reshaping Long-Context LLM with Multi-Conv RL-based Memory Agent](https://openreview.net/pdf?id=k5nIOvYGCL)
 - [(2026, Mar) [ICLR 2026 Workshop: MemAgents] Learning to Continually Learn via Meta-learning Agentic Memory Designs](https://openreview.net/pdf?id=sOq52KnJmR)
-- [(2024, May) [ICML 2024] MEMORYLLM: Towards Self-Updatable Large Language Models](https://openreview.net/pdf?id=p0lKWzdikQ)
+- [(2026, May) Ratchet: How Reliable Must an LLM Judge Be to Retire a Skill?](https://arxiv.org/abs/2605.22148)
+- [(2026, Jul) [ACL 2026] Mem2Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](https://aclanthology.org/2026.acl-long.952/)
+- [(2026, Jul) [ACL 2026] SEARL: Joint Optimization of Policy and Tool Graph Memory for Self-Evolving Agents](https://aclanthology.org/2026.acl-long.1125/)
+- [(2026, Jul) [ACL 2026 Findings] Remember Me, Refine Me: A Dynamic Procedural Memory Framework for Experience-Driven Agent Evolution](https://aclanthology.org/2026.findings-acl.829/)
+- [(2026, Aug) Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents](https://arxiv.org/abs/2608.20274)
 
 
 #### Tooling (§5.4.3)
@@ -692,7 +725,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2026, Jan) Beyond Static Tools: Test-Time Tool Evolution for Scientific Reasoning](https://arxiv.org/pdf/2601.07641)
 - [(2026, Jan) Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution](https://arxiv.org/pdf/2505.20286v1)
 - [(2026, Feb) Evolving from Tool User to Creator via Training-Free Experience Reuse in Multimodal Reasoning](https://arxiv.org/pdf/2602.01983)
-- [(2026, Feb) Evolving from Tool User to Creator via Training-Free Experience Reuse in Multimodal Reasoning](https://arxiv.org/pdf/2602.01983)
+- [(2026, Jul) [ACL 2026] EVOTOOL: Self-Evolving Tool-Use Policy Optimization in LLM Agents via Blame-Aware Mutation and Diversity-Aware Selection](https://aclanthology.org/2026.acl-long.2016/)
 
 #### Workflow and System Evolution (§5.4.4)
 
@@ -711,6 +744,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, Apr) [NAACL 2025] EvoAgent: Towards Automatic Multi-Agent Generation via Evolutionary Algorithms](https://aclanthology.org/2025.naacl-long.315.pdf)
 - [(2025, May) [ICML 2025] MAS-GPT: Training LLMs to Build LLM-based Multi-Agent Systems](https://openreview.net/pdf?id=3CiSpY3QdZ)
 - [(2025, May) Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents](https://arxiv.org/pdf/2505.22954)
+- [(2025, Jun) Agents of Change: Self-Evolving LLM Agents for Strategic Planning](https://arxiv.org/abs/2506.04651)
 - [(2025, Jun) Adaptive Graph Pruning for Multi-Agent Communication](https://arxiv.org/pdf/2506.02951)
 - [(2025, Jun) Agentic Neural Networks: Self-Evolving Multi-Agent Systems via Textual Backpropagation](https://arxiv.org/pdf/2506.09046)
 - [(2025, Jul) [AAAI 2025] Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation](https://arxiv.org/pdf/2507.18224)
@@ -720,6 +754,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, Nov) [EMNLP 2025] AMAS: Adaptively Determining Communication Topology for LLM-based Multi-agent System](https://aclanthology.org/2025.emnlp-industry.144.pdf)
 - [(2025, Nov) [EMNLP 2025] EvoAgentX: An Automated Framework for Evolving Agentic Workflows](https://aclanthology.org/2025.emnlp-demos.47.pdf)
 - [(2026, Jan) [ICLR 2026] Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies](https://openreview.net/pdf?id=I05H9RUzHB)
+- [(2026, Jul) [ACL 2026] Mem2Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation](https://aclanthology.org/2026.acl-long.952/)
 
 
 
@@ -762,7 +797,6 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2023, Dec) [NeurIPS 2023] RealTime QA: What's the Answer Right Now?](https://papers.nips.cc/paper_files/paper/2023/file/9941624ef7f867a502732b5154d30cb7-Paper-Datasets_and_Benchmarks.pdf)
 - [(2025, Apr) [ICLR 2025] LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code](https://openreview.net/pdf?id=chfJJYC3iL)
 - [(2025, Apr) [ICLR 2025] LiveBench: A Challenging, Contamination-Limited LLM Benchmark](https://openreview.net/pdf?id=sKYHBTAxVa)
-- [(2025, Apr) TDBench: A Benchmark for Top-Down Image Understanding with Reliability Analysis of Vision-Language Models](https://arxiv.org/pdf/2504.03748)
 - [(2025, Jul) [ACL 2025] AntiLeakBench: Preventing Data Contamination by Automatically Constructing Benchmarks with Updated Real-World Knowledge](https://aclanthology.org/2025.acl-long.901.pdf)
 - [(2025, Jul) [SIGIR 2025] Dynamic-KGQA: A Scalable Framework for Generating Adaptive Question Answering Datasets](https://dl.acm.org/doi/pdf/10.1145/3726302.3730324)
 - [(2025, Jul) [ICML 2025] DyCodeEval: Dynamic Benchmarking of Reasoning Capabilities in Code Large Language Models Under Data Contamination](https://raw.githubusercontent.com/mlresearch/v267/main/assets/chen25ba/chen25ba.pdf)
@@ -791,6 +825,10 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, Mar) SafeArena: Evaluating the Safety of Autonomous Web Agents](https://arxiv.org/pdf/2503.04957)
 - [(2025, Apr) [ICLR 2025] GameArena: Evaluating LLM Reasoning through Live Computer Games](https://openreview.net/pdf?id=SeQ8l8xo1r)
 - [(2025, Jul) [ICML 2025] LMRL Gym: Benchmarks for Multi-Turn Reinforcement Learning with Language Models](https://openreview.net/pdf?id=hmGhP5DO2W)
+- [(2026) RSI-Exam: Benchmarking Recursive Self-Improvement through Executable Research](https://github.com/aiming-lab/RSI-Exam)
+- [(2026, Jul) [ACL 2026 Findings] OPT-BENCH: Evaluating the Iterative Self-Optimization of LLM Agents in Large-Scale Search Spaces](https://aclanthology.org/2026.findings-acl.1417/)
+- [(2026, Jul) [ACL 2026 Findings] PerMemSafe: Benchmarking Implicit Personalized Safety of Long Horizon Self-Evolving Agents](https://aclanthology.org/2026.findings-acl.320/)
+- [(2026, Aug) AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement](https://arxiv.org/abs/2608.20318)
 
 
 ## Challenges and Limitations (§7)
@@ -808,6 +846,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, Jul) [ACL 2025 Findings] The Self-Improvement Paradox: Can Language Models Bootstrap Reasoning Capabilities without External Scaffolding?](https://aclanthology.org/2025.findings-acl.337.pdf) 
 - [(2025, Nov) A Unified Understanding of Offline Data Selection and Online Self-refining Generation for Post-training LLMs](https://arxiv.org/pdf/2511.21056) 
 - [(2026, Jan) Why LLMs Aren't Scientists Yet: Lessons from Four Autonomous Research Attempts](https://arxiv.org/pdf/2601.03315) 
+- [(2026, Jul) [ACL 2026] Counteracting the Matthew Effect in Self-Improvement of LVLMs through Head-Tail Re-balancing](https://aclanthology.org/2026.acl-long.1010/)
 
 #### Data Copying
 
@@ -831,6 +870,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2024, Oct) Learning by Surprise: Surplexity for Mitigating Model Collapse in Generative AI](https://arxiv.org/pdf/2410.12341)
 - [(2025, Jan) [ICLR 2025] Progress or Regress? Self-Improvement Reversal in Post-training](https://openreview.net/pdf?id=RFqeoVfLHa)
 - [(2025, Mar) [ICLR 2025] Strong Model Collapse](https://openreview.net/pdf?id=et5l9qPUhm)
+- [(2026, Mar) [EACL 2026 Findings] Demystifying Mixed Outcomes of Self-Training: Pre-training Analyses on Non-Toy LLMs](https://aclanthology.org/2026.findings-eacl.213/)
 
 
 ### Flawed Feedback Signals (§7.2)
@@ -857,6 +897,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2025, Aug) [AAAI 2026] Persistent Instability in LLM's Personality Measurements: Effects of Scale, Reasoning, and Conversation History](https://arxiv.org/pdf/2508.04826)
 - [(2025, Oct) Taming the Judge: Deconflicting AI Feedback for Stable Reinforcement Learning](https://arxiv.org/pdf/2510.15514)
 - [(2025, Nov) [EMNLP 2025 Findings] Rating Roulette: Self-Inconsistency in LLM-As-A-Judge Frameworks](https://aclanthology.org/2025.findings-emnlp.1361.pdf) 
+- [(2026, May) Ratchet: How Reliable Must an LLM Judge Be to Retire a Skill?](https://arxiv.org/abs/2605.22148)
 
 
 ### Optimization-Driven Failures (§7.3)
@@ -899,6 +940,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2024, Aug) [ACL 2024] Pride and Prejudice: LLM Amplifies Self-Bias in Self-Refinement](https://aclanthology.org/2024.acl-long.826.pdf) 
 - [(2025, Jul) Self-Correction Bench: Uncovering and Addressing the Self-Correction Blind Spot in Large Language Models](https://arxiv.org/pdf/2507.02778)
 - [(2025, Nov) [EMNLP Findings 2025] Unraveling Misinformation Propagation in LLM Reasoning](https://aclanthology.org/2025.findings-emnlp.627.pdf)
+- [(2026, Jul) [ACL 2026] CURE: Critique-Driven Unified Reinforcement Learning for Test-Time Self-Improvement](https://aclanthology.org/2026.acl-long.1321/)
 
 
 ### Evaluation Bottlenecks (§7.5)
@@ -925,8 +967,10 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2024, Mar) [AAAI 2024] LatestEval: Addressing Data Contamination in Language Model Evaluation through Dynamic and Time-Sensitive Test Construction](https://ojs.aaai.org/index.php/AAAI/article/view/29822/31427) 
 - [(2025, Jan) [ICLR 2025] Progress or Regress? Self-Improvement Reversal in Post-training](https://openreview.net/pdf?id=RFqeoVfLHa)
 - [(2025, Apr)[AAAI 2025] Empowering Self-Learning of LLMs: Inner Knowledge Explicitation as a Catalyst](https://ojs.aaai.org/index.php/AAAI/article/view/34590)
+- [(2025, Jul) [ACL 2025] PRMBench: A Fine-Grained and Challenging Benchmark for Process-Level Reward Models](https://aclanthology.org/2025.acl-long.1230/)
 - [(2025, Sep) [NeurIPS 2025] Measuring what Matters: Construct Validity in Large Language Model Benchmarks](https://openreview.net/pdf?id=mdA5lVvNcU)
 - [(2025, Sep) Why Language Models Hallucinate](https://arxiv.org/pdf/2509.04664)
+- [(2026) [GEM 2026] Position: Scores Without Context? Rethinking the Role of Evaluation in the Era of LLMs](https://aclanthology.org/2026.gem-main.82/)
 
 #### LLM Evaluator Bias
 
@@ -1003,6 +1047,8 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2024, Mar) Evaluating Frontier Models for Dangerous Capabilities](https://arxiv.org/pdf/2403.13793)
 - [(2025, Apr) [ICLR 2025] AI Sandbagging: Language Models Can Strategically Underperform on Evaluations](https://openreview.net/pdf?id=7Qa2SpjxIS)
 - [(2026, Jan) [ICLR 2026] Your Agent May Misevolve: Emergent Risks in Self-Evolving LLM Agents](https://openreview.net/pdf?id=Fd1jgQQW28)
+- [(2026, Jun) Safety in Self-Evolving LLM Agent Systems: Threats, Amplification, and Case Studies](https://arxiv.org/abs/2606.23075)
+- [(2026, Jul) [ACL 2026 Findings] PerMemSafe: Benchmarking Implicit Personalized Safety of Long Horizon Self-Evolving Agents](https://aclanthology.org/2026.findings-acl.320/)
 
 #### Deceptive Alignment
 
@@ -1187,7 +1233,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 ### 1. From Model-Level Optimization to End-to-End Self-Improving Systems
 Future work may move beyond improving individual components toward **end-to-end self-improvement system** that continuously generate data, evaluate outputs, and update themselves within an automated loop.
 
-### 2. Toward Specialized and Application-Centric Self-Improved Models
+### 2. Toward Specialized and Application-Centric Self-Improving Models
 Self-improvement mechanisms are increasingly applied in **domain-specific settings** such as coding, science, finance, and healthcare, enabling specialized agents to iteratively refine expertise within constrained environments.
 
 ### 3. Unified Benchmarks for Self-Improvement and Autonomous Evaluation
@@ -1212,3 +1258,18 @@ If you find this work useful, please cite:
       url={https://arxiv.org/abs/2603.25681}
 }
 ```
+
+
+# Team
+
+This survey is authored by members of the Zesearch NLP Lab at Stony Brook University:
+
+- Haoyan Yang — [haoyan.yang@stonybrook.edu](mailto:haoyan.yang@stonybrook.edu)
+- Mario Xerri — [mario.xerri@stonybrook.edu](mailto:mario.xerri@stonybrook.edu)
+- Solha Park — [solha.park@stonybrook.edu](mailto:solha.park@stonybrook.edu)
+- Huajian Zhang — [huajian.zhang@stonybrook.edu](mailto:huajian.zhang@stonybrook.edu)
+- Yiyang Feng — [yiyang.feng@stonybrook.edu](mailto:yiyang.feng@stonybrook.edu)
+- Sai Akhil Kogilathota — [saiakhilkogilathota@gmail.com](mailto:saiakhilkogilathota@gmail.com)
+- Jiawei Zhou — [jiawei.zhou.1@stonybrook.edu](mailto:jiawei.zhou.1@stonybrook.edu)
+
+We are interested in the self-improvement of LLMs and recursive self-improvement (RSI). If you have any questions or ideas, feel free to reach out.
