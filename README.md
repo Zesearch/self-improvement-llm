@@ -22,7 +22,7 @@
 
 # News
 
-- **[2026.09]** 🚀 We implemented the blueprint presented in this survey and released [**Zevo**](https://zevoai.dev), a multi-agent self-improving system for evolving language models. See the [**website**](https://zevoai.dev) and [**GitHub repository**](https://github.com/Zesearch/Zevo) for details.
+- **[2026.09]** 🚀 We implemented the blueprint presented in this survey and released **Zevo**, a multi-agent self-improving system for evolving language models. See the [**website**](https://zevoai.dev) and [**GitHub repository**](https://github.com/Zesearch/Zevo) for details.
 - **[2026.09]** 🚀 We released the [**TMLR camera-ready version**](https://arxiv.org/abs/2603.25681v3) of our survey, with several recent references added.
 - **[2026.08]** 🚀 We released a [**new version**](https://arxiv.org/abs/2603.25681v2) of our paper, with a restructured **Model Optimization (§4)**, a new section on **Potential Risks (§8)**, and an expanded **Applications (§9)**.
 - **[2026.08]** 🎉 Our paper was accepted to [**TMLR**](https://jmlr.org/tmlr/) and awarded a [**Survey Certification**](https://jmlr.org/tmlr/papers/)!
