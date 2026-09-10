@@ -39,7 +39,10 @@ If you are also interested in self-improvement of LLMs or self-evolving agents, 
 
 
 # Overview
-As large language models (LLMs) continue to advance, improving them solely through human supervision is becoming increasingly costly and limited in scalability. As models approach human-level capabilities in certain domains, human feedback may no longer provide sufficiently informative signals for further improvement. At the same time, the growing ability of models to make autonomous decisions and execute complex actions naturally enables abstractions in which components of the model development process can be progressively automated. Together, these challenges and opportunities have driven increasing interest in self-improvement, where models autonomously generate data, evaluate outputs, and iteratively refine their own capabilities.
+As large language models (LLMs) continue to advance, relying solely on human supervision for further improvement is becoming increasingly difficult to scale. This shift is driven by two key factors:
+
+- **Limits of human supervision:** High-quality expert data is costly and scarce, while human feedback may become less informative as models approach or exceed human-level performance in specialized domains.
+- **Opportunities for autonomy:** Increasingly capable models can generate data, evaluate outputs, make decisions, and execute complex actions, enabling more of the model development process to be automated.
 
 We envision a paradigm in which **humans only bootstrap the system**, after which the model autonomously acquires its own data, reflects on its own outputs, and iteratively refines its own capabilities. In the long run, model development becomes a self-sustaining loop rather than a human-driven pipeline, potentially enabling systems to evolve beyond human-level intelligence.
 
