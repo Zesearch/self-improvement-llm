@@ -10,6 +10,8 @@
   Zesearch NLP Lab, Stony Brook University
 </h3>
 
+<img src="figures/intro.jpg" width="900"/>
+
 </div>
 
 <h3 align="center">
@@ -36,18 +38,10 @@ We will continuously update the latest literature on self-improvement of LLMs in
 If you are also interested in self-improvement of LLMs or self-evolving agents, feel free to reach out!
 
 
-# Our Vision
-
-<p align="center">
-  <img src="figures/intro.jpg" width="900"/>
-</p>
-
-We envision a paradigm in which **humans only bootstrap the system**, after which the model autonomously acquires its own data, reflects on its own outputs, and iteratively refines its own capabilities.
-In the long run, model development becomes a self-sustaining loop rather than a human-driven pipeline, potentially enabling systems to evolve beyond human-level intelligence.
-
-
 # Overview
 As large language models (LLMs) continue to advance, improving them solely through human supervision is becoming increasingly costly and limited in scalability. As models approach human-level capabilities in certain domains, human feedback may no longer provide sufficiently informative signals for further improvement. At the same time, the growing ability of models to make autonomous decisions and execute complex actions naturally enables abstractions in which components of the model development process can be progressively automated. Together, these challenges and opportunities have driven increasing interest in self-improvement, where models autonomously generate data, evaluate outputs, and iteratively refine their own capabilities.
+
+We envision a paradigm in which **humans only bootstrap the system**, after which the model autonomously acquires its own data, reflects on its own outputs, and iteratively refines its own capabilities. In the long run, model development becomes a self-sustaining loop rather than a human-driven pipeline, potentially enabling systems to evolve beyond human-level intelligence.
 
 <p align="center">
   <img src="figures/main.jpg" width="900"/>
