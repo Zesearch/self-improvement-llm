@@ -198,6 +198,7 @@ Our goal is to provide a unified perspective on self-improvement systems and sha
 - [(2025, Jun) Go-Browse: Training Web Agents with Structured Exploration](https://arxiv.org/pdf/2506.03533)
 - [(2025, Oct) [TMLR] BrowserAgent: Building Web Agents with Human-Inspired Web Browsing Actions](https://arxiv.org/pdf/2510.10666)
 - [(2026, Jan) EnvScaler: Scaling Tool-Interactive Environments for LLM Agent via Programmatic Synthesis](https://arxiv.org/pdf/2601.05808)
+- [(2026, Jan) Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction](https://arxiv.org/pdf/2601.12762)
 
 
 #### Code Execution
@@ -604,6 +605,7 @@ The table below organizes SGO methods by their generation strategy, reward type,
 - [(2024, Jan) [ICLR 2024] CRITIC: Large Language Models Can Self-Correct with Tool-Interactive Critiquing](https://openreview.net/pdf?id=Sx038qxjek)
 - [(2024, Feb) Confidence Matters: Revisiting Intrinsic Self-Correction Capabilities of Large Language Models](https://arxiv.org/pdf/2402.12563)
 - [(2024, Mar) [EACL 2024] REFINER: Reasoning Feedback on Intermediate Representations](https://aclanthology.org/2024.eacl-long.67.pdf)
+- [(2024, Jul) [CCL 2024] Translate-and-Revise: Boosting Large Language Models for Constrained Translation](https://aclanthology.org/2024.ccl-1.82.pdf)
 - [(2024, Aug) [ACL 2024 Findings] Debug like a Human: A Large Language Model Debugger via Verifying Runtime Execution Step by Step](https://aclanthology.org/2024.findings-acl.49.pdf)
 - [(2024, Sep) [NeurIPS 2024] Recursive Introspection: Teaching Language Model Agents How to Self-Improve](https://openreview.net/pdf?id=DRC9pZwBwR)
 - [(2024, Nov) [EMNLP 2024 Findings] Learning to Refine with Fine-Grained Natural Language Feedback](https://aclanthology.org/2024.findings-emnlp.716.pdf)
